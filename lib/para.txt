@@ -1,0 +1,801 @@
+This biographical article related to French artistic gymnastics is a stub. You can help Wikipedia by expanding it.
+
+InsideAR was the largest Augmented Reality event in Europe. It was organized and supported by metaio GmbH every year. The first event was held in 2010, had since expanded globally and was run at multiple locations around the world.  However, after Apple purchased metaio in May 2015, metaio cancelled the InsideAR conference 2015 without any statements about the conference's future. 
+
+The Fearing Mind is an American horror television series that aired on the Fox Family Channel from October 21 until December 2, 2000. 
+
+Bill Fearing, a famous writer of suspense thrillers, gets his ideas from things that happen in his family. When he gets an idea, the viewers enter his mind and see the gruesome events unfold. 
+
+It had a bronze barrel and lacked a modern recoil system, using only an ineffective spring-mounted spade brake, and was virtually obsolescent on its introduction. Nonetheless, it was the standard field howitzer for the Austrian Army at the outbreak of the war. 
+
+Lithuanian Paralympic Committee (Lithuanian: Lietuvos parolimpinis komitetas) was founded on 1990 and recognized by the International Paralympic Committee after one year. 
+
+A GUI may be designed for the requirements of a vertical market as application-specific graphical user interfaces. Examples include automated teller machines (ATM), point of sale (POS) touchscreens at restaurants, self-service checkouts used in a retail store, airline self-ticket and check-in, information kiosks in a public space, like a train station or a museum, and monitors or control screens in an embedded industrial application which employ a real-time operating system (RTOS). 
+
+Cell phones and handheld game systems also employ application specific touchscreen GUIs. Newer automobiles use GUIs in their navigation systems and multimedia centers, or navigation multimedia center combinations. 
+
+A GUI uses a combination of technologies and devices to provide a platform that users can interact with, for the tasks of gathering and producing information. 
+
+A series of elements conforming a visual language have evolved to represent information stored in computers. This makes it easier for people with few computer skills to work with and use computer software. The most common combination of such elements in GUIs is the windows, icons, menus, pointer (WIMP) paradigm, especially in personal computers. 
+
+In personal computers, all these elements are modeled through a desktop metaphor to produce a simulation called a desktop environment in which the display represents a desktop, on which documents and folders of documents can be placed. Window managers and other software combine to simulate the desktop environment with varying degrees of realism. 
+
+Entries may appear in a list to make space for text and details, or in a grid for compactness and larger icons with little space underneath for text. Variations inbetween exist, such as a list with multiple columns of items and a grid of items with rows of text extending sideways from the icon. 
+
+Multi-row and multi-column layouts commonly found on the web are "shelf" and "waterfall". The former is found on image search engines, where images appear with a fixed height but variable length, and is typically implemented with the CSS property and parameter display: inline-block;. A waterfall layout found on Imgur and Tweetdeck with fixed width but variable height per item is usually implemented by specifying column-width:. 
+
+Smaller app mobile devices such as personal digital assistants (PDAs) and smartphones typically use the WIMP elements with different unifying metaphors, due to constraints in space and available input devices. Applications for which WIMP is not well suited may use newer interaction techniques, collectively termed post-WIMP user interfaces. 
+
+As of 2011, some touchscreen-based operating systems such as Apple's iOS (iPhone) and Android use the class of GUIs named post-WIMP. These support styles of interaction using more than one finger in contact with a display, which allows actions such as pinching and rotating, which are unsupported by one pointer and mouse. 
+
+Human interface devices, for the efficient interaction with a GUI include a computer keyboard, especially used together with keyboard shortcuts, pointing devices for the cursor (or rather pointer) control: mouse, pointing stick, touchpad, trackball, joystick, virtual keyboards, and head-up displays (translucent information devices at the eye level). 
+
+There are also actions performed by programs that affect the GUI. For example, there are components like inotify or D-Bus to facilitate communication between computer programs. 
+
+GUIs were a hot topic in the early 1980s. The Apple Lisa was released in 1983, and various windowing systems existed for DOS operating systems (including PC GEM and PC/GEOS). Individual applications for many platforms presented their own GUI variants. Despite the GUIs advantages, many reviewers questioned the value of the entire concept, citing hardware limits, and problems in finding compatible software. 
+
+In 1984, Apple released a television commercial which introduced the Apple Macintosh during the telecast of Super Bowl XVIII by CBS, with allusions to George Orwell's noted novel Nineteen Eighty-Four. The goal of the commercial was to make people think about computers, identifying the user-friendly interface as a personal computer which departed from prior business-oriented systems, and becoming a signature representation of Apple products. 
+
+Windows 95, accompanied by an extensive marketing campaign, was a major success in the marketplace at launch and shortly became the most popular desktop operating system. 
+
+In 2007, with the iPhone and later in 2010 with the introduction of the iPad,  Apple popularized the post-WIMP style of interaction for multi-touch screens, and those devices were considered to be milestones in the development of mobile devices. 
+
+The GUIs familiar to most people as of the mid-late 2010s are Microsoft Windows, macOS, and the X Window System interfaces for desktop and laptop computers, and Android, Apple's iOS, Symbian, BlackBerry OS, Windows Phone/Windows 10 Mobile, Tizen, WebOS, and Firefox OS for handheld (smartphone) devices.[citation needed] 
+
+GUIs can be made quite hard when dialogs are buried deep in a system or moved about to different places during redesigns. Also, icons and dialog boxes are usually harder for users to script. 
+
+WIMPs extensively use modes, as the meaning of all keys and clicks on specific positions on the screen are redefined all the time. Command-line interfaces use modes only in limited forms, such as for current directory and environment variables. 
+
+Most modern operating systems provide both a GUI and some level of a CLI, although the GUIs usually receive more attention. The GUI is usually WIMP-based, although occasionally other metaphors surface, such as those used in Microsoft Bob, 3dwm, or File System Visualizer. 
+
+Several attempts have been made to create a multi-user three-dimensional environment or 3D GUI, including Sun's Project Looking Glass, Metisse, which was similar to Project Looking Glass, BumpTop, where users can manipulate documents and windows with realistic movement and physics as if they were physical documents, and the Croquet Project, which moved to the Open Cobalt and Open Croquet efforts. 
+
+The zooming user interface (ZUI) is a related technology that promises to deliver the representation benefits of 3D environments without their usability drawbacks of orientation problems and hidden objects. It is a logical advance on the GUI, blending some three-dimensional movement with two-dimensional or 2.5D vector objects. In 2006, Hillcrest Labs introduced the first zooming user interface for television. 
+
+Some environments use the methods of 3D graphics to project virtual three-dimensional user interface objects onto the screen. These are often shown in use in science fiction films (see below for examples). As the processing power of computer graphics hardware increases, this becomes less of an obstacle to a smooth user experience. 
+
+Three-dimensional graphics are currently mostly used in computer games, art, and computer-aided design (CAD). A three-dimensional computing environment can also be useful in other uses, like molecular graphics, aircraft design and Phase Equilibrium Calculations/Design of unit operations and chemical processes. 
+
+Interfaces for the X Window System have also implemented advanced three-dimensional user interfaces through compositing window managers such as Beryl, Compiz and KWin using the AIGLX or XGL architectures, allowing the use of OpenGL to animate user interactions with the desktop. 
+
+Giuliani received her first call-up for the senior team as Italy faced Austria in a friendly held on 7 April 2013. She was left out of the squad which took part in the UEFA Women's Euro 2013. She made her debut on 5 April 2014 against Spain in a 2015 FIFA Women's World Cup qualification match. 
+
+Fishing industry in North Korea provides an important supplement to the diet and for export. The catch in 2001 totaled 200,000 tons of wild-caught seafood and 63,700 tons produced using aquaculture. The major fishing grounds are in the coastal areas of the Sea of Japan to the east and the Yellow Sea to the west. The main fishery ports are Sinpo, Kimchaek, and the nearby deep-sea fishery bases of Yanghwa and Hongwfin. The principal catch from the Sea of Japan is pollock. 
+
+North Korea's coastline of about 2,495 kilometers, mixture of warm and cold ocean currents, and many rivers, lakes, and streams make its potential for fishery development better than for most other countries. 
+
+The major fishing grounds are in the coastal areas of the Sea of Japan to the east and the Yellow Sea to the west. The principal catch from the Sea of Japan is pollock. Sardine and squid catches are also significant. From the west coast, yellow corvina and hairtail are the most common varieties of fish. Deep-sea catches include herring, mackerel, pike, and yellowtail. Shellfish and mollusks are caught too. 
+
+A major expansion of technical schools was undertaken since the 1950s, with specialized courses including fishing. Not until the early 1960s, however, did the domestic fishing industry begin to expand rapidly, receiving increased investment in vessels, equipment, and port facilities. Deep-sea fishing began in earnest in the 1970s. 
+
+Total marine products increased from 465,000 tons in 1960 to 1.14 million tons in 1970, registering an annual growth rate of 9.4 percent compared with the planned rate of 14.5 percent. The Six-Year Plan target of 1 .6 million tons was met in 1976. 
+
+The catch in 2001 totaled 200,000 tons of wild-caught freshwater and saltwater fish, shellfish, and mollusks and about 63,700 tons produced using aquaculture. The exact numbers of present catches are unknown. Unlike most countries, North Korea does not report its annual catch to the Food and Agriculture Organization (FAO), of which it is a member. 
+
+The exact numbers of the fishing fleet, thought to be in poor condition, are not known. In 1998, North Korea had eight large fishing vessels (3,750 displacement tonnage,  2,759 gross tons, 83 m length, 2,250 horsepower) and 1,545 small vessels (485 displacement tonnage,  267 gross tons, 39 m length, 400 horsepower). Numbers of smaller vessels were not reported. 
+
+Fish is an important export commodity to North Korea. Fish and seafood are particularly exported to China. The United Nations Security Council sanctions from 2017 banned North Korean exports of seafood. Prior to the ban, North Korean exports of seafood were estimated at US$300 million annually. 
+
+According to a 1988 agreement with the United Nations Development Programme, North Korea was to receive assistance in construction of a fish farm. 
+
+The first joint venture North Korea established with China, in 1989, was a marine fishery products firm located in Chongjin that had an initial capitalization of US$1 million. 
+
+North Korea conducts fishing in its own EEZ, the extent of which is unknown because North Korea has not passed a law on it, mainly for the industrial sector. Some fishing for the artisanal sector takes place, too. Subsistence fishing has declined considerably over the years. 
+
+A 2000 agreement between non-governmental fishing organizations of North and South Korea allowed South Koreans to fish inside the North Korean EEZ in the Sea of Japan until 2005. About 400 South Korean fishing vessels conducted fishing in the area. 
+
+North Korea sells fishing quotas to its EEZ to foreigners through agents China. North Korean fishermen who are deprived of quotas to the EEZ then resort to poaching in the waters of China and Russia. 
+
+Fish is important to the diet of North Koreans. Pollock is considered a favorite fish of most Koreans. Food stores in self-sufficient urban neighborhoods typically sell fish. The only exception to controlled markets is the peasant market, where surplus fish is sold at free-market prices based on supply and demand. 
+
+In the public distribution system of North Korea, ocean fishermen and others doing heavy work are allotted more grain than government and party officials engaged in less strenuous physical activities. 
+
+The Coastal Security Bureau is responsible for policing and protecting the nation's fishing areas. At the county level, the county Cooperative Farm Management Committees include fishery agents if there are fisheries in the county. 
+
+A struggle over the control of fisheries between the military and Jang Song-thaek was the final straw leading to the latter's downfall and purge in 2013. 
+
+On 4 September 1947, he was assigned to capture the escaped murderer, Emile Buisson. Borniche kept critical investigative files in his office, forcing the other investigators to bargain with him for their contents; other investigators did the same. He also competed with the other agencies for informants, who tried to play the investigators against each other for more rewards. He was sometimes shadowed by other investigators and would have to lose his "tail" to meet with an informant. 
+
+He retired in 1956 and formed his own detective agency in Paris. His first set of memoirs, Flic Story, became the basis of a 1975 film featuring Alain Delon as Borniche, portraying Borniche's real-life pursuit of Emile Buisson. 
+
+Sabir was raised in Rawalakot, Azad Kashmir, Pakistan, where he obtained an economics degree. He moved to Calgary in 2004, and obtained degrees in social work and law at the University of Calgary. In 2012, he began working at Maurice Law Barristers and Solicitors, where he specialized in Aboriginal law. In the past, he has also worked for a Calgary homeless shelter and volunteered for Calgary Legal Guidance and Red Cross Canada. 
+
+Cymindis unicolor is a species of ground beetle in the subfamily Harpalinae. It was described by William Kirby in 1837. 
+
+Two ships of the United States Navy have been named Bobolink, after the American bird, the bobolink. 
+
+Under the Portuguese Presidency of the Council of the European Union in the first half of 2021, the EuroNanoForum 2021 conference will address Nanotechnology and Advanced Materials as the key elements to guarantee the functioning, long term durability, safety, and environmental compatibility of several devices, machinery, and services. 
+
+The European Green Deal will also play a major role in this online event since the advanced materials will be fundamental for the transition to new and greener technologies and disruptive innovation that will spread successful new solutions across Europe and the world. 
+
+The EuroNanoForum 2021  will bring together experts across different sectors to identify policy options and priorities, to share insight on technical, industrial, and social challenges, to define the role of nano-enabled industries as well as their views and ideas about the part that science will take in the greener future. 
+
+This event is a collective effort of several actors encompassing researchers, innovators, industries, regions, public authorities, investors, and civil society, in the co-creation of innovative solutions and is organized by INL - International Iberian Nanotechnology Laboratory in collaboration with FCT - Portuguese Foundation for Science and Technology, ANI - National Association for Innovation, and NIA - Nanotechnology Industries Association. 
+
+The following coaching team was announced by the Argentine Rugby Union for the 2020 Super Rugby season: 
+
+Note: Flags indicate national union as has been defined under WR eligibility rules. Players may hold more than one non-WR nationality. 
+
+Mecyclothorax monteithi is a species of ground beetle in the subfamily Psydrinae. It was described by Barry P. Moore in 1985. 
+
+Iain Smith (born 1 May 1960) is a Scottish Liberal Democrat politician. He was the Member of the Scottish Parliament (MSP) for the North East Fife constituency from 1999 until his defeat at 2011 election by the SNP's Rod Campbell. 
+
+Smith was educated at Bell Baxter High School in Cupar, Fife before reading Politics and Economics at Newcastle University. 
+
+Smith was elected to the first Scottish Parliament in May 1999 to represent his home constituency of North East Fife and was appointed as Deputy Minister for Parliamentary Business in the government of First Minister Donald Dewar. A post he held until Dewar's death the following year. 
+
+After the election Smith was appointed Scottish Liberal Democrat Spokesperson for Europe, External Affairs and Culture and was elected by his colleagues to Chair of the Scottish Liberal Democrat Parliamentary Party. In September 2008 he became Convener of the Scottish Parliament's influential Economy, Energy and Tourism Committee. 
+
+For the past eight years, Smith has lived with his partner in Ladybank. He has a broad interest in sports; particularly cricket and football. He likes to travel widely and has a keen interest in culture. 
+
+The development is an age-restricted adult community and is located off of Route 37 just west of the Garden State Parkway. 
+
+Holiday City consists of five separate communities, each with its own homeowners association and amenities: 
+
+The adult communities of Silver Ridge Park consist of four separate areas, each with its own homeowners association and amenities. These are: 
+
+Sweeny majored in textiles at the National College of Art & Design in Dublin. Upon graduation he worked as an art teacher. 
+
+Sweeny has shown internationally including in Dublin Castle, Ireland; The State Museum of Architecture, Moscow, Russia; and The Natural History Museum, London. Academy Award nominee Brenda Blethyn, President Mary McAleese of Ireland, Harry Potter actress Evanna Lynch, and French model Satya Oblette are some of his well-known clients. 
+
+In show production he has produced and directed shows in The Irish Museum of Modern Art,  The Royal Dublin Society and Trinity College Dublin. In 2011 he art directed the British singer Lisa Stansfield at Studio Harcourt, Paris. 
+
+The National Trust for Scotland has owned the island since 2000. With only two sheep left on the island in July 2007 and few, if any, other permanent mammalian residents, Pabbay is consequently home in summer to many ground-nesting birds due to the absence of predators. 
+
+The island was the site of a Celtic hermitage, and a Pictish carved stone dates from that period. Remains of an Iron Age settlement can also been seen on Pabbay. 
+
+The name of Pabbay is used for one of the three houses of Castlebay Secondary School. The other two are Mingulay and Sandray. 
+
+Rosinish  (or Rubha Phabach) is a small peninsular headland situated on the East coast of the island. It lies in a South-Easterly direction and is only attached to the mainland of the island by a small natural arch. 
+
+Composed of Lewisian gneiss, Pabbay is "one of the finest climbing venues in the UK". This includes the climbing route The Great Arch, which is graded E8 6c. 
+
+The Guardian is a public artwork by artist Ante Buljan, located at the front of the Redwood City Police Station, in Redwood City, California, United States. 
+
+The artist, Ante Buljan, was born in Croatia and moved to California at the age of nine. He is a graduate of UCLA (psychology), and also studied at John F. Kennedy University in Orinda, California. For several years, he maintained a working studio in the 1870 Art Center in Belmont, California. 
+
+The Workers' International League (WIL) was a Trotskyist group that existed in Britain from 1937 to 1944. 
+
+The WIL was formed in 1937 by members of the Militant Group, who had split due to false allegations from the leadership of that group that Ralph Lee (born Raphael Levy), then a newly arrived South African member, had misled a strike and used the strike funds to move to England. 
+
+The Fourth International was formed in 1938, and the WIL refused to merge into the newly formed official British affiliate, the Revolutionary Socialist League itself a regroupment of the Militant Group and others. They requested either affiliate or sympathiser status to the International but were rejected. 
+
+Unlike the Revolutionary Socialist League, the WIL readily adopted the Proletarian Military Policy developed by Trotsky in his last writings and expanded upon and advocated by James P Cannon and the Socialist Workers Party. They campaigned for the creation of workers' militias instead of the Home Guard, deep air raid shelters for workers, and after 1941 against the pro-war, anti-strike position of the CPGB. 
+
+Due to its adoption of the Proletarian Military Policy, the WIL argued that its members should go through the experience of the war with other members of their class by joining the army when called-up. But if this was applied to the whole membership it meant they could be dispersed and provide no real leadership and therefore the organisation took measures to preserve the leading cadres outside the forces. 
+
+With the outbreak of World War II, the WIL expected to be banned and so temporarily moved a few members (Tommy Reilly, Jock Haston, Gerry Healy, John Williams and George Noseda) to Dublin. It soon became obvious that the group would not be persecuted, and they were allocated paper for their publications. 
+
+By 1944, the Fourth International had realised that the WIL were far more effective and closer to the FI's policies than the RSL which had disintegrated into a set of warring factions, and so coordinated a unity conference.  This produced the Revolutionary Communist Party, which adopted all the WIL's positions. 
+
+He is a public speaker and a vocal proponent of learning from professional mentors. A non-fiction book on the subject is due out in 2012. It is rumored that it will be published by Hay House. 
+
+Kraft attended The University of Santa Monica (USM) in Santa Monica, Ca. to study Transpersonal Psychology and is a career counselor and mentor to adults. 
+
+In 2000, Kraft worked as a camera production assistant on the film Sally, starring Rachael Leigh Cook and Michael Weston. 
+
+In November 2010, Kraft appeared in a segment on ABC News 20/20 Show that investigated the malicious grading practices of the Better Business Bureau. 
+
+Kraft appeared on the national radio show, The Alex Jones Radio Program for Genesis Communications twice. 
+
+In November 2011, Kraft appeared in Dr. Drew's Lifechangers wherein he granted a full scholarship to a troubled young documentary filmmaker from Detroit, Michigan. 
+
+Until the end of the 2007/08 season IV liga lay at fourth tier of league system but this was changed with the formation of the Ekstraklasa as the highest level of football league in Poland. 
+
+In 2019/20 season, there are 20 parallel groups of IV liga. There are two groups in 4 voivodeships but only one club can be promoted after winning the play-offs between the winners of these two groups. 
+
+Before 1648 the area was part of Duchy of Pomerania, 1648-1945 Prussia and Germany. For the history of the region, see History of Pomerania. 
+
+The DSM has specified that the criteria for bipolar disorder can be applied to children since 1980. However, the exact criteria for diagnosing pediatric bipolar disorder remains controversial and heavily debated. There are big differences in how commonly it is diagnosed across clinics and in different countries. There has been a rapid increase in research on the topic, but training and clinical practice lag behind. 
+
+In both the American Psychiatric Association's DSM-5 and the World Health Organization's ICD-10, the same criteria used to diagnose bipolar disorder in adults are used to make the diagnosis in children with some adjustments to account for differences in age and developmental stage. For example, the DSM-5 specifies that in children, depressive episodes can manifest as persistently irritable moods. 
+
+Diagnostic criteria may not correctly separate children with bipolar disorder from other problems such as ADHD, and emphasize fast mood cycles. 
+
+Chronic medication is often needed, with relapses of individuals reaching rates over 90% in those not following medication indications and almost to 40% in those complying with medication regimens in some studies. Compared to adults, a juvenile onset has in general a similar or worse course, although age of onset predicts the duration of the episodes more than the prognosis. A risk factor for a worse outcome is the existence of additional (comorbid) pathologies. 
+
+Descriptions of children with symptoms similar to contemporary concepts of mania date back to the 18th century. In 1898, a detailed psychiatric case history was published about a 13-year-old that met Jean-Pierre Falret and Jules Baillarger's criteria for folie circulaire, which is congruent to the modern conception of bipolar I disorder. 
+
+Bipolar disorder in children and adolescents: treatment and diagnosis: new treatment guidelines available. (2005). The Brown University Psychopharmacology Update, 16(4), 1+. https://link.gale.com/apps/doc/A130389603/AONE?u=mcc_main&sid=AONE&xid=5c0b7c9e 
+
+Mahoney, D. (2004). More studies on bipolar disorder sorely needed. Clinical Psychiatry News, 32(3), 50. https://link.gale.com/apps/doc/A115228271/AONE?u=mcc_main&sid=AONE&xid=44d846bd 
+
+Wendling, P. (2009). Stimulant use in ADHD, bipolar discouraged: expert in mood disorders cites evidence showing that amphetamines might worsen both illnesses. Clinical Psychiatry News, 37(8), 16. https://link.gale.com/apps/doc/A207123442/AONE?u=mcc_main&sid=AONE&xid=c58b5005 
+
+Conus acutangulus, common name the sharp-angled cone, is a species of sea snail, a marine gastropod mollusk in the family Conidae, the cone snails and their allies. 
+
+Like all species within the genus Conus, these snails are predatory and venomous. They are capable of "stinging" humans, therefore live ones should be handled carefully or not at all. 
+
+This species occurs in the Red Sea and in the tropical Indo-West Pacific; off Queensland, Australia. 
+
+High Heat Major League Baseball 2002, also known as High Heat Baseball 2002, is a video game released in 2001, and is the fourth game in the High Heat Major League Baseball video game series. Then-Montreal Expos right fielder Vladimir Guerrero is featured on the cover. The game was released in March 2001 for Microsoft Windows, PlayStation, and PlayStation 2, followed by a Game Boy Advance port in September 2001. A Game Boy Color version was also in development but was cancelled. 
+
+Computer Games Magazine and PC Gamer US both named it the best sports game of 2001, with the latter calling it "the best simulation of any sport." 
+
+Ramon C. Gonzalez Jr. (November 6, 1947) is a Republican member of the Kansas House of Representatives. Gonzalez is from Perry, Kansas where he serves as police chief. Elected in a special election by the Republican precinct delegates to replace Lee Tafanelli who had resigned from the State House of Representatives to become the adjutant general of Kansas. 
+
+Gonzalaez spent most of his career as an employee of Southwestern Bell from which he has retired. He also currently works as  a special investigator with the Jefferson County, Kansas Sheriff's Office. 
+
+2000 Amateur championship of Ukraine was the ninth amateur championship of Ukraine and the 37th since the establishment of championship among fitness clubs (KFK) in 1964. 
+
+This article about a Ukrainian association football competition is a stub. You can help Wikipedia by expanding it.
+
+This article about an Australian Labor Party member of the Senate is a stub. You can help Wikipedia by expanding it.
+
+Neocrepidodera impressa is a species of flea beetle from Chrysomelidae family that can be found everywhere in Europe except for Andorra, Austria, Baltic states, Czech Republic, Hungary, Liechtenstein, Moldova, Monaco, North Macedonia, Poland, Romania, San Marino, Vatican City, and eastern Europe. 
+
+The model of "Networking for Advocates" was investigated in some research conducted by Martin Davies and Roger Croft of the University of Bath. The purpose of the research was to further understand the importance of developing trust in business relationships. The research identified certain networking transactions as the currency of developing trusted business relationships. This led to the development of the NRG Networking System based on this Advocacy Model. 
+
+The organisation is structured around local groups, and primarily delivers its benefits via a monthly lunch meeting, preceded by a business development seminar. 
+
+Avel Louise Gordly (born February 13, 1947) is an activist, community organizer, and former politician in the U.S. state of Oregon, who in 1996 became the first African-American woman to be elected to the Oregon State Senate. She served in the Senate from 1997 to 2009. Previously, she served for five years in the Oregon House of Representatives. 
+
+In 2008, while serving as senator, OHSU opened the Avel Gordly Center for Healing, which provides mental health and psychiatric services. 
+
+The Fight Club is a Canadian mixed martial arts (MMA) promotion based in Edmonton, Alberta. TFC currently fights at the Shaw Conference Centre. 
+
+Every round in TFC competition Zaeis five minutes in duration. Title matches have five such rounds, and non-title matches have three. There is a one-minute rest period between rounds. 
+
+Note: In the event of a draw, it is not necessary that the fighters' total points be equal. However, in a unanimous or split draw, each fighter does score an equal number of win judgments from the three judges (0 or 1, respectively). 
+
+A fight can also end in a technical decision, disqualification, forfeit, technical draw, or no contest. The latter two outcomes have no winners. 
+
+The ten-point must system is in effect for all fights; three judges score each round and the winner of each receives ten points, the loser nine points or fewer. If the round is even, both fighters receive ten points. 
+
+When a foul is charged, the referee in their discretion may deduct one or more points as a penalty. If a foul incapacitates a fighter, then the match may end in a disqualification if the foul was intentional, or a no contest if unintentional. If a foul causes a fighter to be unable to continue later in the bout, it ends with a technical decision win to the injured fighter if the injured fighter is ahead on points, otherwise it is a technical draw. 
+
+Founded on August 25, 2004,  Chongqing Times discontinued publication on January 1, 2019, and its electronic version is not accessible. 
+
+Born in Little Rock, Arkansas, Newbern is the son of Betty, a Spanish teacher and David Newbern, a radiologist. 
+
+He began his acting career at the Arkansas Arts Center in Little Rock, in the role of the younger brother in Life with Father, based on Clarence S. Day Jr.'s autobiographical novels. This first acting role spurred him on to other acting roles and eventually on to movie roles. Newbern's first lead role was in 1987's Double Switch, a retelling of The Prince and the Pauper that aired as a part of the Wonderful World of Disney television series.  
+
+From 1986 to 1992, Newbern had a recurring role as Payne McElroy, the son of designer Julia Sugarbaker (played by Dixie Carter), on the series Designing Women. He has since guest-starred on television in such series as Providence, Chicago Hope, Friends, Bull, CSI, Medium, Ghost Whisperer, Touched by an Angel, Criminal Minds, and Private Practice. He had a recurring role for several seasons as a former CIA operative in Scandal. 
+
+He starred as Neal Morris, father of Melissa Morris (Emily Osment), in the 2009 Disney Channel movie Dadnapped, and portrayed Apollo 14 astronaut Stu Roosa in the HBO mini-series From The Earth To The Moon. Film credits include Adventures in Babysitting (1987) with Elisabeth Shue; Double Switch (1987); Switching Channels (1988) with Kathleen Turner, Burt Reynolds and Christopher Reeve; and Father of the Bride (1991) and its sequel Father of the Bride Part II. In 2009 he appeared in Locker 13. 
+
+Newbern also lend his voice in the cartoon series The Pirates of Dark Water, and he has also done voiceovers on a number of video games and game-related productions. He has also voiced in the infamous Theodore Rex as the character of the same name. In 2003, Newbern provided the voice of Mevyn Nooj in Final Fantasy X-2. 
+
+Newbern met actress Marietta DePrima in the mid 1980s. They graduated together at  Northwestern University, where she was a member of Kappa Alpha Theta. The couple married in 1990. Together they have three children. 
+
+The station consists of a single bay platform serving four tracks, connected to the station building by a level crossing. 
+
+Glutamine amidotransferase-like class 1 domain-containing protein 3A, mitochondrial is a protein that in humans is encoded by the GATD3A gene. 
+
+Tom Baack (born 13 March 1999) is a German professional footballer who plays as a centre-back for SC Verl, on loan from Jahn Regensburg. 
+
+This biographical article related to association football in Germany, about a defender born in the 1990s, is a stub. You can help Wikipedia by expanding it.
+
+The community is notable as the location of the Knob Creek Church of Christ, established in June 1834, the first Restoration Movement congregation to adopt the name Church of Christ. 
+
+A post office was established on the Tennessee side in 1833. The community probably derives its name from Duke A. Beadles, first postmaster. 
+
+Dukedom is connected with General Nathan Bedford Forrest, who served for the Confederacy in the Civil War. A Kentucky highway historical marker in the community reads: 
+
+This Graves County, Kentucky state location article is a stub. You can help Wikipedia by expanding it.
+
+Laxmi Narayan 1 (Tushar Kapoor) lives a poor man's lifestyle in Mumbai with his widowed mother Kanta, who wants him to be a successful gangster and would like him to kill a few people, make enough money, then marry Chota Khujli's daughter, Meena Khujli. To fulfill his mother's wish, Laxminarayan 1 accepts a contract to kill D'Mello Yadav (Mukesh Tiwari), a Pondi-based gangster, who has stolen a diamond. 
+
+Laxmi Narayan 2 (Sunil Shetty), the detailed and obedient Secretary of D.M. Pipat, wants him to buy a vintage car from a Pondi-based used car dealer, Laila (Sameera Reddy). 
+
+Laxmi Narayan 3 (Paresh Rawal) sells undergarments and runs a business, 'Bulbul Lingerie,' with his son, Sonu; he travels to Pondi to meet with his new supplier, Jiya (Esha Deol). 
+
+The trio all arrive and book rooms next to each other in Blue Diamond Hotel. Their respective lives are hilariously turned upside down when their names cause all three to end up in the wrong places. They are also on the run from Inspector Mayawati Chautala (Neetu Chandra), who also has a crush on Laxmi Narayan 2. 
+
+Born on 28 September 1883 in Brunswick a suburb of Melbourne in Victoria, Australia, Barnett was the son of working class parents. He attended the Albert Street Primary School until 1898 when he  joined the Education Department, initially as monitor, and eventually as student-teacher. He resigned in 1902, to become a clerk in the civil service. By 1920 he had qualified as a public accountant and established his own practice. 
+
+For the remainder of his life, Oswald Barnett retained a strong interest in social reform. He remained an important figure in the Methodist Church, as a lay preacher and author of religious tracts. He also wrote several volumes of poetry and a book of revised nursery rhymes. In 1959 Barnett married Florence Fowles, his first wife having died in 1956. He formally retired from his accountancy firm in 1962, and died at Box Hill on 3 May 1972. 
+
+Milutin Krunich was a patriotic Serbian lieutenant and author whose stories were used to create a Serbophil sentiment in America leading up to the American entry into World War I. 
+
+A patriotic Serbian book Serbia Crucified: The Beginning in 1918 was written with the help of Leah Marie Bruce from Berkeley California. It was reviewed in The Survey in 1918. It was reviewed again in 1919. 
+
+Tempter is the debut album by the Dutch death metal band Nembrionic Hammerdeath. It was released in 1993 as a split CD with Consolation's debut album Beautyfilth by Displeased Records. Later, it was re-issued by itself. 
+
+Trancers  started out as an homage to pulp detective novels, with noted similarities to other cult sci-fi movies, such as Blade Runner and The Terminator (the latter of which was released the same year). In the series, time travel is initially made possible using a drug that sends the person into the consciousness of a relation, but expanded to include the pre-set co-ordinates of a time machine, with the fourth and fifth films introducing other means of time travel between other dimensions. 
+
+Deth appears in all the films, while Trancers 6 only has archive footage of Thomerson and a double body played by Christopher Farrell is used for some scenes. Zette Sullivan plays his daughter, Josephine, whom Jack is inside. 
+
+Jack Deth is a cop who, originally was from the 23rd century, c. 2247 in Angel City (the renamed Los Angeles, following an earthquake). Jack was married to a woman called Alice B. Stillwell, who was also his partner, until she was killed by zombie like enemies called "Trancers" after an operation went wrong. 
+
+Jack was extracted from his mission by his supervisor McNulty when Ashe become frantic over the deaths of the other council members, but Ashe allowed Jack to continue when he explained how he was close to finding Ashby, her ancestor. Immediately after Jack returns to his ancestor's body, he spots Whistler on TV being interviewed and learns that Ashby is on Skid Row. 
+
+Jack and Lena steal a couple of motor cycles from a punk who had bothered them earlier in a nightclub and they go to Skid Row where they track down Ashby and help him to escape from Whistler and his goons. Lena is shot by one of the tranced cops, enduring a minor injury, but manages to reunite with Jack and Ashby at their hideout. Jack is worried about losing Lena, as he explains how he lost his wife back home in Angel City. 
+
+In Trancers III, in 1992, Jack and Lena were on the verge of divorcing, due to their failing marriage. Although Jack promised to amend their relationship, he was forcefully returned to the future by the android Shark before he could fulfill this. 
+
+Jack is injured trying to escape from these new bloodsuckers, and passes out in the woods. He is found by a kindly peasant, who nurses him back to health and then sends out a carrier pigeon, alerting Caliban of his whereabouts and therefore betraying Jack. The man is killed, however, when the Trancers show up with Caliban, despite being loyal to Caliban, and Jack is captured after his time freezer watch fails to do its job, resulting in the Trancers humoring his predicament. 
+
+Unfortunately, one of Caliban's men uses an art work of Caliban to somehow bring him back during Trancers 5: Sudden Deth, in which Thomerson makes his final appearance in the canon. 
+
+After dealing with a renegade Trancer at her place of employment, Josephine visits her friend Dr. Paul Malvern for help. They fend off an attack by Trancers, but end up being captured and forced to work for Miss Wilder, with Josephine narrowly managing to avoid being tranced with the meteor ray herself. Josephine just pretends to be a Trancer, so that this buys her more time. 
+
+Josephine returns to Castle's office, to see Castle is quickly destroying evidence using a paper shredder. Just before he is revealed for what he really is, Mr. Castle warns Josephine that killing him would be pointless, as there are many more just like him in the universe controlling thousands. Yet Josephine shoots him anyway, exposing his true alien form. 
+
+With the Trancers having been wiped out again, Jack decided to remain in the guise of his daughter, in case the Trancers should come looking for her now that she's wanted by them. But as seen in the end sequence, the Trancer kid with an eye missing survived, possibly indicating that a new threat could be looming. 
+
+Thomerson (as Jack Deth) appeared in the 2006 movie, Evil Bong, briefly talking to someone in a dream-like state. Other Full Moon-related characters also appear in this film, including Ivan Burroughs from Decadent Evil and the cackling Jack Attack from the Demonic Toys movies, although Evil Bong isn't canonical. 
+
+His other supervisor "Lyra" (Stacie Randall) later supplies him with a new gun that can be powered naturally with sand, small rocks, et cetera. He also receives a new wrist watch that can still slow down time, but with unlimited use. However, this trick backfires on him in Orpheus because Orpheus uses magic, as well as Jack going through dimensional portals. 
+
+The most important item he receives from Lyra is an ordinary looking switchblade, that is designed so it can cut through just about anything. This saves his life on more than one occasion. Jack Deth is a fan of vintage cars, and is also a smoker, as Jack (as Josephine) receives a case which includes a pack of cigarettes. 
+
+Trancers 6 tries to be like the original Trancers, by only including the original movie's time freezer watch. Although, including this is probably a plot hole, as Trancers 6 ignores parts 4 and 5 completely and, therefore, it does not make sense to be using the old one. 
+
+Wyms, who earned a Super Bowl ring with the Buccaneers in Super Bowl XXXVII, has also played for the Seattle Seahawks, Minnesota Vikings and Florida Tuskers. 
+
+Wyms went to Mississippi State and played as a Bulldog. He racked up 120 career tackles, with 69 solo tackles. He also collected 10 quarterback sacks in just 40 career games for the Mississippi State Bulldogs. Wyms started on the defensive line eight times as a senior. Wyms was the Bulldogs' top reserve player. In his first career start, against Oklahoma State, Wyms racked up six tackles. He majored in technology and education. 
+
+Wyms was drafted by the Tampa Bay Buccaneers with the 183rd pick of the 2001 NFL Draft, in the sixth round. In his first season, he played in four games (at the Detroit Lions, vs. the New Orleans Saints, vs. the Baltimore Ravens, and vs. the Philadelphia Eagles. However, he did not start until the Philadelphia Eagles playoff game in which the Buccaneers lost. 
+
+He signed with the Seattle Seahawks before the 2007 season. He appeared in 13 games (no starts) for the team and recorded 11 tackles. He became a free agent after the season. 
+
+On March 17, 2008, Wyms signed a one-year contract with the Minnesota Vikings worth $1.5 million and including a $500,000 signing bonus. 
+
+Wyms contributes to the community through the "Strong Minds, Strong Bodies" program. Ellis Wyms is also the founder of The Wyms Foundation. The program provides monthly reading activities and career advice to underprivileged children in the city of Tampa. He also participates in many community activities. In high school, he recorded 124 tackles and 7 sacks. Wyms is married to real estate consultant DeeDee Wyms. 
+
+South Dakota Highway 40A was a short spur route in the east part of Badlands National Park.  This route was originally part of South Dakota Highway 40.  At that time, SD 40 exited the park to the northeast, and continued east with U.S. Highway 16.  Around 1970, SD 40 was rerouted south from the park to a new alignment south of the White River.  When this was done, SD 40A was created to link with Alternate U.S. Highway 16. 
+
+Christopher "Christoph" Sanders (born April 21, 1988) is an American actor who is best known for his role as Ned Banks in the television series Ghost Whisperer and Kyle Anderson in the sitcom Last Man Standing on ABC (2011-2017) and FOX (2018-2021). 
+
+He has recently appeared in the music video of "Old Town Road" with Lil Nas X and Billy Ray Cyrus. He was cast as Kyle Anderson in the Last Man Standing tv show starring Tim Allen. His character was initially the boyfriend of the eldest daughter of Tim Allen's character, but after Season 1 the producers aged the eldest daughter to play a more motherly role. Sanders' character eventually became the boyfriend, and later husband, to the middle daughter. 
+
+An avid outdoorsman, Sanders enjoys such activities as hiking, camping, and surfing. He also describes himself as "a pretty great cook." 
+
+Raphitoma boutillieri is an extinct species of sea snail, a marine gastropod mollusc in the family Raphitomidae. 
+
+The combined transmission spectrum of TRAPPIST-1 b and c rules out a cloud-free hydrogen-dominated atmosphere for each planet, so they are unlikely to harbor an extended gas envelope. Other atmospheres, from a cloud-free water-vapor atmosphere to a Venus-like atmosphere, remain consistent with the featureless spectrum. 
+
+In 2018, the composition of TRAPPIST-1c was determined, and has been found to be rock-based with a very thick, Venus-like atmosphere. The atmosphere of TRAPPIST-1c is likely thinner than that of TRAPPIST-1b. 
+
+This Saskatchewan road, road transport or highway-related article is a stub. You can help Wikipedia by expanding it.
+
+Balangoda is situated in the hilly central region of central Sri Lanka on Sabaragamuwa Mountain Range. The main livelihoods of this region are farming (vegetables, fruits, and spices), rice cultivation for mainly local consumption, tea cultivation for international markets as a commercial crop and gem mining. 
+
+This Sabaragamuwa Province, Sri Lanka location article is a stub. You can help Wikipedia by expanding it.
+
+"The Waxies' Dargle" is a traditional Irish folk song about two Dublin "aul' wans" (ladies) discussing how to find money to go on an excursion. It is named after an annual outing to Ringsend, near Dublin city, by Dublin cobblers (waxies). It originated as a 19th-century children's song and is now a popular pub song in Ireland. 
+
+In the 19th century, during the Summer, the gentry of Dublin would travel out to Bray and Enniskerry with their entourages and have picnics on the banks of the River Dargle. The Dargle was a popular holiday resort, and the name in Dublin slang became synonymous with "holiday resort". 
+
+Their destination was a favourite resort for Dubliners, a grass-covered triangle near the sea-front at Irishtown. On Summer evenings fiddlers, flautists and melodeon players played dance music (sets, half-sets and reels) until midnight. There was a roaring trade in porter, cockles and mussels and "treacle Billy". On Bank holidays there were boxing contests. 
+
+There is an engraved stone, marking the location of the Waxies' Dargle "picnic" site near Gleesons Pub in Irishtown. 
+
+Robert Gogan describes how the "Waxies' Dargle" focuses on working-class Dublin. The places referenced are in areas frequented by the poor. Monto was an area around Montgomery Street, a notorious red-light district near the centre of Dublin. Capel Street is on the north side of the city and was renowned for its pawnbroking shops, a few of which remain to this day. 
+
+The Waxies' Dargle is also mentioned in another Dublin folk song, "Monto (Take Her Up to Monto)", written by George Desmond Hodnett. 
+
+The Waxies' Dargle is referenced in the Aeolus episode of the novel Ulysses by James Joyce. The character Myles Crawford refers to the two old ladies on top of Nelson's pillar as being "Out for the waxies' Dargle". 
+
+At 16 years of age, Henriques was selected for the Australian U-19 cricket team's squad for the 2004 U-19 Cricket World Cup in Bangladesh, where he took 11 wickets at 19.27 and scored 95 runs at 19.00. 
+
+In September 2005, Henriques was named in Australia's U-19 squad to tour India for a One Day series against the Indian U-19 cricket team. Whilst Australia lost the series, in difficult conditions, Henriques was a stand out. He scored 132 runs at an average of 44.00 and claimed 8 wickets at 18.25. 
+
+Henriques was named captain of the Australian U-19 team for the 2006 U-19 Cricket World Cup in Sri Lanka, and performed to great acclaim as he led the Australians to a semi-final berth. He was a stand out player of the tournament, scoring 150 runs at 37.50 and finished as the World Cup's leading wicket-taker, claiming 16 wickets at 10.52 in 5 matches. 
+
+During his time in the Australian U-19 team, he played 17 matches, taking 35 wickets at 15.08 and scored 377 runs at an average of 31.41. 
+
+Moises Henriques is the joint leading wicket taker along with Greg Thompson in the history of Under-19 Cricket World Cup with 27 scalps. 
+
+On 2 January 2006, Henriques made his List A debut for New South Wales against Victoria. He bowled 8 overs for 46 runs in a narrow New South Wales victory. His appearance, at only 18 years of age, made him the youngest ever List A debutant for New South Wales. Six days later, Henriques made his Twenty20 debut, but did not bat or bowl in that match. 
+
+He was signed by the Kolkata Knight Riders franchise for $300,000 to play in the Indian Premier League during the 2009 season. In 2010, he was traded to the Delhi Daredevils in exchange for Manoj Tiwary. 
+
+In September 2012 he scored his first first-class century, 161 not out off 229 balls against Tasmania at Bankstown.[citation needed] 
+
+Since then, he has produced some very consistent performances with both bat and ball, a highlight recently in the Matador One Day Cup where he scored 131 against Victoria which was his first List A century. He is the captain of NSW. He is injured but will return towards the end of November. 
+
+In June 2015, while playing for Surrey in a NatWest t20 Blast game against Sussex Sharks at Arundel Castle, Henriques collided with teammate Rory Burns while attempting to take a catch.  Both players were knocked unconscious from the collision and Henriques suffered a broken jaw.  Ambulances and medical staff treated the players on-field before taking them both to hospital. The game was abandoned due to the injuries. 
+
+In July 2019, he was selected to play for the Glasgow Giants in the inaugural edition of the Euro T20 Slam cricket tournament. However, the following month the tournament was cancelled. He was released by the Kings XI Punjab ahead of the 2020 IPL auction. In February 2021, Henriques was bought by the Punjab Kings in the IPL auction ahead of the 2021 Indian Premier League. 
+
+In the Big Bash League, Henriques captained Sydney Sixers to consecutive title victories in 2019-20 and 2020-21 seasons. He was also a part of the winning squad in the inagural BBL final in 2011-12, where he scored 70(41) in the final. 
+
+In 2018, Henriques revealed he was suffering from depression and stepped down as captain of New South Wales. 
+
+A genuine all-rounder, Henriques states that he "couldn't choose" between batting and bowling as his preferred art. Despite this, some have commented that his bowling is slightly better than his batting. As a right-handed batsman, Henriques bats in the middle to lower order, and as a right-arm medium-fast bowler he generally opens the attack. His style has been compared to Australian Shane Watson, but Henriques looks to South African all-rounder Jacques Kallis as a source of inspiration. 
+
+On 19 June, Barcelona announced the signing of Memphis Depay from Olympique Lyonnais on a free transfer. 
+
+On 1 July, Lionel Messi's contract expired amidst negotiations to sign a new contract, effectively making Messi a free agent. 
+
+Despite reaching an agreement with Messi and having planned to sign a contract on 5 August, the club announced that Messi wouldn't stay at the club due to financial and structural obstacles posed by La Liga regulations. He subsequently joined Paris Saint-Germain F.C. on 10 August. 
+
+On 28 October, Barcelona announced the dismissal of Ronald Koeman as the first team coach, ending his spell at the club after 14 months. 
+
+On 12 November, Barcelona announced an agreement in principle to sign former right-back Dani Alves on a free transfer. The Brazilian will officially return to the club in January 2022 during the Winter Transfer Window. 
+
+Source: fcbarcelona.comOrdered by ,  and  = Number of bookings;  = Number of sending offs after a second yellow card;  = Number of sending offs by a direct red card. 
+
+ - Player is injured   - Player has recovered from injury Last updated: 5 November 2021Source: FC Barcelona 
+
+According to Ricardo J. Goenaga, the director of the TARS, the main goal of the scientists at the station is the development of fruit production systems that help growers to increase the market and the sales potential of the crops. 
+
+Currently, the TARS contains one of the best and well-documented tropical plant collections in the Western Hemisphere, consisting of more than 2,000 permanently cultivated species, both tropical fruits and ornamental plants. 
+
+Homeboy Industries began in 1988 as a job training program (called Jobs for a Future)  out of Dolores Mission Parish in Boyle Heights, Los Angeles, California, USA.  It was created by then-pastor Greg Boyle to offer an alternative to gang life for high-risk youth, who were living in a city (Los Angeles) with the highest concentration of gang activity in the country. In those early days, Boyle found sympathetic businesses that agreed to hire recovering gang members. 
+
+In 1992, an abandoned warehouse was converted into the first business, Homeboy Bakery, to create more opportunities for employment. The Bakery started off producing tortillas and eventually received a contract for baking bread. Eventually more businesses were added, and in 2001, Homeboy Industries became an independent non-profit. "Nothing stops a bullet like a job" is the guiding principle. 
+
+Dolores Mission Alternative School was created to offer high school drop outs a chance for a diploma. In 2010, Learning Works became the new high school. There are currently 75 students enrolled, and in 2012 enrollment is expected to reach 105. 
+
+In addition to jobs, Homeboy Industries offers training in anger management, domestic violence, yoga, spiritual development, parenting, substance abuse, budgeting, art and other areas of self-development. In addition, they offer free mental health counseling, tattoo removal, legal services, job development and case management. 
+
+In 2014, the Global Homeboy Network was founded to work with other organizations to provide similar programs and the social enterprise employment structure across the globe. Father Greg hopes organizations will not duplicate Homeboy Industries, but seek to creating a community and a place of welcome to those in trouble. 
+
+The growing number of ex-gang members and prisoners had quickly outnumbered the amount of available jobs at Homeboy Industries. According to Father Boyle, Homeboy Industries laid off approximately 330 employees in 2010, including senior staff and administrators. Homeboy Industries failed to generate its $5 million needed to operate. In order to rehabilitate their finances, Homeboy Industries created "Homeboy Groceries" in January 2011, consisting of foods such as chips, salsa, and guacamole. 
+
+Because of Homeboy's new partnerships and job opportunities that Homeboy Grocery has provided, Homeboy Industries is continuing to operate. 
+
+Homeboy Groceries goods are currently available in the DELI section at Ralphs, Gelson's, Walmart, and Stop & Shop. 
+
+In 2007, an independent documentary titled Father G. and the Homeboys was released about the organization and what it did for ex-gang members. 
+
+Homeboy Industries made its first foray into the mainstream market with its salsa being sold at Ralphs Supermarket. 
+
+In 2007, Boyle appeared in an episode of MTV's True Life, which followed an employee of Homeboy Industries named Dennis. 
+
+Members of Homeboy Industries were also shown in the music video for Daughtry's "What About Now" in July 2008. 
+
+For his work with Homeboy Industries, Boyle received the 2008 James Irvine Foundation Leadership Award". 
+
+Boyle was named the 2016 Humanitarian of the Year by the James Beard Foundation, a national culinary-arts organization. 
+
+The 2017 Laetare Medal, a prestigious annual award given by the University of Notre Dame to an American Catholic, was awarded to Boyle. 
+
+Homeboy's 2019 "Lo Maximo" award ceremony was hosted by actresses Jane Fonda and Lily Tomlin and celebrated notable allies of Homeboy Industries, including former California Governor Jerry Brown, who was presented with the 2019 "Kinship Award". 
+
+Leriche, a largely self-taught filmmaker, made a number of short films and worked as an educator with film and video training programs for homeless youth and First Nations, before writing and directing Before the Streets. Her most noted short film, The Schoolyard (Les Grands), was named to the Toronto International Film Festival's annual Canada's Top Ten list for short films in 2007. 
+
+Before the Streets won the Borsos Competition award for best picture, and Leriche won the award for best director, at the 2016 Whistler Film Festival. At the 2016 Directors Guild of Canada awards, Leriche won the DGC Discovery Award. 
+
+Roger Huerta (born May 20, 1983) is an American mixed martial artist currently fighting in the lightweight division. He initially gained exposure by competing in the lightweight division of the Ultimate Fighting Championship, Bellator Fighting Championships and later ONE Championship. 
+
+Ashford coached Huerta and with the help of Ramirez, aided him in applying for a collegiate wrestling scholarship. Huerta attends Augsburg University in Minneapolis, Minnesota with one year remaining in a Business Management bachelor's degree and resided in St. Paul, Minnesota. 
+
+In Huerta's pre-UFC career, his first loss came as a result of a dislocated jaw early in the finals of the SuperBrawl 36 tournament against Ryan Schultz on June 18, 2004, his third match of the day. 
+
+Huerta was originally slated to make his UFC debut against Hermes Franca at UFC 61, but was forced to withdraw from the fight as the result of an elbow injury. He won his first six fights in the UFC, the first at UFC 63 against Jason Dent, which was declared "Fight of the Night". 
+
+His next fight was against UFC newcomer John Halverson at UFC 67. The fight ended by TKO after 19 seconds of round one after Huerta landed a knee to the shoulder/head area of a grounded Halverson, knocking him down and finishing him with punches. The end of the bout was controversial as knees to the head of grounded opponents are illegal under UFC rules. It was later shown in a replay that Huerta's knee was actually to the shoulder rather than to the head. 
+
+Next he fought in a three-round war with Leonard Garcia at UFC 69. winning via unanimous decision. After the fight, in May 2007, Huerta became the first mixed martial artist to appear on the cover of Sports Illustrated Magazine, for a story on the rising popularity of mixed martial arts. 
+
+On January 9, 2009, Huerta announced an indefinite hiatus from MMA to further pursue opportunities in acting. 
+
+In order to complete his UFC contract, Huerta returned on September 16, 2009, but lost to Gray Maynard at UFC Fight Night 19. After a back-and-forth fight, he would end up losing a split decision in his bout against Maynard. 
+
+Despite having previously announced on his personal Twitter account that he was in talks with Strikeforce, Huerta eventually signed with Bellator Fighting Championships. He was one of eight men to compete in the second season lightweight tournament, with the winner receiving a title shot against Eddie Alvarez. 
+
+His first fight in the tournament took place at Bellator 13.  Huerta defeated opponent Chad Hinton via submission (kneebar) at 0:56 of the third round. 
+
+His second fight in the tournament took place at Bellator 17. Huerta lost the semi-final to Pat Curran by a controversial unanimous decision (29-28 from all three judges). 
+
+However, on August 12 it was announced that Huerta would be fighting Bellator Lightweight Champion Eddie Alvarez, after Curran had to pull out of the fight due to a slap tear in his right shoulder. The Lightweight belt was not on the line when the two met on October 21, 2010 at Bellator 33 in Philadelphia. He lost the fight via doctor stoppage at the end of the 2nd round. 
+
+Huerta fought against War Machine in a welterweight bout in the main event of Ultimate Warrior Fighting 1. Huerta lost the fight via TKO after he suffered a fractured rib during the final scramble in the third round where he rolled out of War Machine's submission armbar attempts to claim side control. From there, War Machine escaped from Huerta's side mount to directly take full mount with ease. Machine then rained down punches for the referee stoppage at three minutes and nine seconds. 
+
+Huerta signed with the Asian-based promotion ONE Championship in 2012.  He was scheduled to fight Phil Baroni in a welterweight bout at ONE FC: Destiny of Warriors on June 23 but Baroni was pulled from the fight after suffering a TKO loss in a fight 3 weeks before the event. Huerta instead fought Zorobabel Moreira at the event, and was defeated via KO (soccer kick) in the second round. 
+
+After two years away from the sport, Huerta returned to One FC on August 29, 2014. He faced undefeated Christian Holley at ONE FC: Reign of Champions and won the fight via TKO in the first round. 
+
+After seven-and-a-half years away from the promotion, Huerta re-signed with Bellator MMA for one fight in 2018. He faced Benson Henderson in the main event at Bellator 196 on April 6, 2018. Huerta lost the bout via submission in the second round. 
+
+Huerta faced Patricky Freire on September 21, 2018 at Bellator 205. He lost the fight via knockout in the second round. 
+
+Huerta faced Sidney Outlaw at Bellator 234 on November 14, 2019. He lost the fight via unanimous decision. 
+
+Huerta faced Chris Gonzalez at Bellator 255 on April 2, 2021. He lost the bout after tapping due to strikes in the third round. 
+
+Huerta trained for his UFC fight against Kenny Florian with Greg Jackson's Submission Fighting. For his Bellator debut, he spent time in Thailand and put together a training camp with MMA fighters such as Yves Edwards (UFC), Shad Lierley (Bellator), Jared Hess (Bellator), Dave Menne, and Jeff Clark out of the Phil Cardella / Relson Gracie Academy in Austin, Texas. 
+
+Huerta made his acting debut as Miguel Caballero Rojo in the live action motion picture Tekken. He also starred alongside Kimbo Slice, Frank Mir, and Heath Herring in Circle of Pain, a 2010 direct-to-video film. 
+
+In August 2010, Huerta engaged in a street fight outside of a bar at approximately 2 A.M. CST in Austin, Texas. Video footage provided by TMZ shows a man alleged to be Huerta is seen exchanging words with and defending himself against a man, Rashad Bobino, a former Texas Longhorns linebacker, who had just assaulted a woman. 
+
+Gil was made a Commander of the Order of Isabella the Catholic in 2014. Receiving the honor in Prague, she recalled the circumstances of her long exile. 
+
+On 27 March 2014, she was granted the Title of Ambassador of Mas de las Matas and the Medal of the Faithful Villa of Mas de las Matas. 
+
+Bagdad is located along the historic U.S. Route 66, east of Barstow and Ludlow, and west of Amboy and Needles. 
+
+The town was founded in 1883 when the Atchison, Topeka and Santa Fe Railway railway line between Barstow and Needles was built. At this time, Bagdad provided services to the Orange Blossom Mine several miles to the north, and to the War Eagle Mine several miles to the south. In addition, a dirt track extended south past the War Eagle Mine into the Dale Mining District in the Pinto Mountains. 
+
+Bagdad was long a thriving town along the National Old Trails Road and the famous Route 66. It was bypassed by the opening of Interstate 40 to the north in 1973, and lost traveler's business and resident population. 
+
+Bagdad holds the record for the longest dry streak in United States history with 767 straight days without rain, from October 3, 1912 to November 8, 1914. It is to the south of the Granite Mountains and the Mojave National Preserve, and north of the Bullion Mountains. 
+
+A small airfield known as the Bagdad Intermediate Field was built south of the town, immediately south of Route 66. It was operational in 1932, with abandonment between 1954-1958.  A small, red concrete pad that was formerly the base of the airway beacon tower is all that remains. 
+
+Cuerna is a genus of insect in the leafhopper family described in 1924 and accepted in 1925. There are 26 species in this genus. They can be found in North America from Canada and Alaska to Panama, but the highest diversity of species is in the southwestern United States. 
+
+He won a gold medal in the fours at the 1958 British Empire and Commonwealth Games in Cardiff with Norman King, John Scadgell and Walter Phillips. 
+
+This biographical article relating to United Kingdom lawn or indoor bowls is a stub. You can help Wikipedia by expanding it.
+
+George Dean Johnson Jr. (born July 22, 1942) is an American politician in the state of South Carolina. Brought up in Spartanburg, he served in the South Carolina House of Representatives from 1969 to 1974, elected as Democratic, Republican and Independent, representing Spartanburg County, South Carolina. He is a lawyer. 
+
+George D. Johnson Jr. founded multiple companies, including Extended Stay America, Advance America Cash Advance, and Johnson Waste, which was later sold to Waste Management, Incorporated. 
+
+William Balloch Stirling Naughton (born 20 March 1962) is a Scottish former professional footballer who played in the Football League as a Left winger. 
+
+In August 2009, two extrasolar planets, HD 147018 b and HD 147018 c, were reported to be orbiting this star. The planets were found using the radial velocity method, using the CORALIE spectrograph at La Silla Observatory, Chile. 
+
+The village was established in 1980 as part of the "Lookouts in the Galilee" plan, with residents initially living in prefabricated homes imported from South Africa. It was originally named Mitzpe Ziv after Har Ziv, the mountain on which it was built. It was later renamed Mitzpe Hila. 
+
+Katyusha and Grad rockets fired by Hezbollah in the 1990s landed in the village, as did more rockets during the 2006 Lebanon War against Hezbollah. Otherwise it is a popular retreat for "internal tourism": Israelis seeking bed and breakfasts or rental cabins. 
+
+The North American F-82 Twin Mustang is the last American piston-engined fighter ordered into production by the United States Air Force. Based on the North American P-51 Mustang, the F-82 was originally designed as a long-range escort fighter for the Boeing B-29 Superfortress in World War II. The war ended well before the first production units were operational. 
+
+The XP-82 prototypes, and production P-82Bs and P-82Es, retained both fully equipped cockpits so that pilots could fly the aircraft from either position, alternating control on long flights, while later night fighter versions kept the cockpit on the left side only, placing the radar operator in the right position. 
+
+Although some P-82B airframes were completed before the end of World War II, most remained at the North American factory in California waiting for engines until 1946. As a result, none saw service during the war. 
+
+It remains the longest nonstop flight ever made by a propeller-driven fighter, and the fastest such a distance has ever been covered in a piston-engine aircraft. The aircraft chosen was an earlier "B" model powered by Rolls-Royce Merlin engines (see "Surviving aircraft" below). 
+
+Until jet interceptors could be developed and put into service, the Twin Mustangs already built were seen as an interim solution to SAC's fighter escort mission for its strategic bomber force and also as an all-weather air defense interceptor. 
+
+On 11 June 1948, the newly formed United States Air Force replaced the P-for-pursuit category with F-for-fighter. All P-82s were then re-designated F-82. 
+
+The F-82E was the first operational model and its initial operational assignment was to the Strategic Air Command 27th Fighter (later Fighter-Escort) Wing at Kearney Air Force Base, Nebraska in March 1948. 
+
+Four F-82s were deployed from McChord to Alaska, where the pilots provided transition training to the 449th Fighter (All Weather) Squadron, which used Twin Mustangs in the air defense mission. They remained in Alaska for about 45 days, returning to rejoin the rest of the group at the beginning of November 1948. 
+
+In early 1949, the 27th began carrying out long-range escort profile missions. Flights to Puerto Rico, Mexico, the Bahamas and nonstop to Washington, D.C. were carried out. For President Truman's 1949 inauguration, the 27th FEW launched 48 aircraft to fly in review, along with several other fighter units, in formation down Pennsylvania Avenue. Another flyover of the newly dedicated Idlewild Airport in New York City soon followed, with the aircraft flying non-stop from Kearney AFB. 
+
+The appearance of the Soviet Tupolev Tu-4 in 1947 posed a new threat to postwar USAAF planners, and with the start of the Cold War in 1948, led to the establishment of Air Defense Command (ADC) in the United States Air Force. 
+
+The radar-equipped wartime Northrop P-61 Black Widow night fighter was found to be effective in locating and attacking the incoming SAC bombers, and also had the range to attack the bombers far from their intended targets. With no suitable jet interceptors, the P-61 transitioned to the ADC interceptor mission. Available F-61s were war-weary and night fighter F-82C/D models were modified into all-weather interceptors to replace them. 
+
+The first F-82Fs began reaching ADC squadrons in September 1948. By the end of September, ADC had 29 F-82Fs. By the middle of 1949 the F-82 was replacing Black Widows in service with Air Defense Command along the west coast at Hamilton AFB, California (317th FIS) and McChord AFB, Washington (318th FIS, 319th FIS). East coast defense was the mission of the Twin Mustangs assigned to McGuire AFB, New Jersey (2d FIS, 5th FIS). 
+
+In addition to the forces in the Continental United States, the Caribbean Air Command 319th FIS at France Field in the Panama Canal Zone received 15 F-82Fs in December 1948 to replace Black Widows for defending the Panama Canal but remained there only briefly before being reassigned to McChord AFB in May 1949. 
+
+1951 was the last full year of F-82 operations in Korea, as they were gradually replaced by the jet-powered F-94 Starfire. USAF claimed the Twin Mustangs destroyed 20 enemy aircraft, four in the air and 16 on the ground during the conflict. 
+
+During the Korean war, 22 F-82s were lost, including 11 in combat missions and 11 non-combat losses. 
+
+Modified F-82F/Gs for cold weather were designated as F-82H. Six were assigned initially to the 449th F(AW)S at Adak Island in December 1948 to replace their P-61 Black Widows in the Alaska Air Defense mission. The Twin Mustang was well-suited for the air defense mission in Alaska due to its long-range flying ability. In March 1949, the squadron was reassigned to Ladd AFB, near Fairbanks, where an additional eight (14 total) arrived. 
+
+Beginning in spring 1950, Strategic Air Command began replacing their F-82E bomber escorts and throughout the year, several were transferred to the 449th in Alaska. In February 1951, the Air Force ordered Alaskan Air Command that all the remaining F-82s in the Air Force inventory would all be transferred to Alaska. The Twin Mustangs would be used to support Army units in air-to-ground operations, and to use the F-94 Starfires for interceptor duty. 
+
+During 1951 and 1952, F-82Fs from the Air Defense Command 52d Fighter Group at McGuire AFB and 325th Fighter Group at McChord AFB were winterized and flown to Ladd AFB as replacements when those units transitioned to the F-94. 
+
+F-82Gs from Far East Air Force were also sent to Alaska, as jets took over combat duties over the skies of Korea. The FEAF F-82s, however, arrived in a badly corroded condition. Also, many of these aircraft which were sent to the 449th had high time on their airframes from long bomber escort and air defense flights, as well as the stress from combat duty in Korea causing many of them to be difficult to maintain. After four months at the 39th Air Depot Wing at Elmendorf, most were scrapped. 
+
+Some of the planes in storage at Robins and McChord were turned over to museums as static displays. Also after the end of their USAF service, the National Advisory Committee for Aeronautics (NACA) acquired four F-82s for research. 
+
+The Air Force accepted a total of 272 F-82s (including 22 prototype, test and early production aircraft). All examples were redesignated as F-82 in 1948. Specifically, the F-82 program consisted of two XF-82s, one XF-82A, 10 F-82Bs (known for a while as P-82Zs and all allocated to testing), four F-82As, 96 F-82Es, 91 F-82Fs, 45 F-82Gs and 14 F-82Hs.  All models and variants of the P-82 were produced at North American's Inglewood, California manufacturing plant. 
+
+In 1955 the Chronicle was merged into the Empire News. The Empire News itself disappeared in 1960 when it was merged with the News of the World. 
+
+http://www.deadtide.com/reviews/albums/page.php?id=2396  http://www.lordsofmetal.nl/en/reviews/view/id/5030 
+
+All episodes of the first season are named after notable films of different eras. For the first half of the second season, all the episodes are named after notable songs. The second half of the second season features episodes named after novels. During the course of the series, 36 episodes of Finding Carter aired over two seasons. 
+
+The smallest animal yet to carry Crittercam is the emperor penguin. Information and footage from Crittercam was used in the Oscar-winning documentary March of the Penguins. 
+
+At Museum of Science (Boston), there is an exhibit on Crittercam. The exhibit will soon travel to other museums. The exhibit allows people to participate in interactive displays and models. 
+
+We Got the Rhythm is the second studio album recorded by American funk band The People's Choice, released in 1976 on the TSOP label. 
+
+The album peaked at No. 38 on the R&B albums chart. It also reached No. 174 on the Billboard 200. The album features the single, "Here We Go Again", which peaked at No. 52 on the Hot Soul Singles chart. "Movin' in All Directions" also charted at No. 52 on the Hot Soul Singles chart. 
+
+Colombia competed at the Summer Deaflympics for the first time in 1969. Colombia also won its only Deaflympics medal to date that same year. Colombia has never participated in the Winter Deaflympics. 
+
+Ryan Turnbull MP (born July 15, 1977) is a Canadian politician and social innovation consultant who was elected to represent the riding of Whitby in the House of Commons of Canada in the 2019 Canadian federal election. 
+
+As a teenager, he took intensive leadership training which inspired him to dedicate his life to one of service to community. He went on to study philosophy and applied ethics for 8 years earning both a Bachelor's Degree (with High Honours) and a Master's Degree from Carleton University. 
+
+He has taught, developed curriculum and overseen research at a number of post-secondary institutions, including Carleton University, Sogang University, University of London (St. Georges Medical School), Ryerson University and Durham College. He has also taught business ethics and corporate social responsibility at Ted Rogers School of Business Management for several years. 
+
+Turnbull founded a management consulting company focused on social innovation and ethics. His company, Eco-Ethonomics Inc. has managed more than 350 projects focused on employing social innovation methods to addressing complex and systemic problems like systemic poverty, racism, and gender equality. 
+
+This article about an Ontario Member of Parliament is a stub. You can help Wikipedia by expanding it.
+
+Short Trips: A Christmas Treasury is a Big Finish original anthology edited by Paul Cornell and based on the long-running British science fiction television series Doctor Who. The collection is the first Christmas book in the Short Trips range. 
+
+Philotheca queenslandica is a species of flowering plant in the family Rutaceae and is endemic to south-eastern Queensland. It is a wiry shrub with elliptic to egg-shaped leaves with the narrower end toward the base and densely crowded near the ends of the glandular-warty branchlets, and cream-coloured flowers tinged with pink and arranged singly in leaf axils. 
+
+This philotheca was first formally described in 1942 by Cyril Tenison White who gave it the name Eriostemon queenslandicus and published the description in the Proceedings of the Royal Society of Queensland. In 2005 Paul Irwin Forster changed the name to Philotheca queenslandica in the journal Austrobaileya. 
+
+Philotheca queenslandica grows in wallum heathland in moist or seasonally flooded, boggy or sandy soil. It is found in south-eastern Queensland between Boonooroo and Bribie Island. 
+
+Philotheca queenslandica is classified as of "least concern" under the Queensland Government Nature Conservation Act 1992. 
+
+Stephanie Frazier Stacy (born April 23, 1962) is an American judge who is an associate justice of the Nebraska Supreme Court. She previously served as a judge on the Third District Court from 2011 to 2015. Stacy was appointed to the state's supreme court by the Governor of Nebraska Pete Ricketts in August 2015. 
+
+In October 2011, Stacy was appointed as a judge by the Governor of Nebraska Dave Heineman, serving on the state's Third District Court, which is responsible for Lancaster County, Nebraska. She was retained to the 3rd District with 77.8% of votes for a new judicial term on November 4. 2014. 
+
+Governor Pete Ricketts appointed Stacy to the Nebraska Supreme Court in 2015, to replace retiring justice Kenneth Stephan in representing the 1st Judicial District. Stacy's appointment was announced on August 14, and she was sworn in on September 28, 2015. Justice Stacy's current term on the court ends in January 2019, and she is eligible to run for re-election in November 2018, for a new six-year term.[needs update] 
+
+The 1986 Ms. Olympia contest was an IFBB professional bodybuilding competition was held on November 19, 1986, at the Felt Forum in Madison Square Garden in New York City, New York. It was the 7th Ms. Olympia competition held. 
+
+Xavier Vilalta (born May 8, 1980) is a Spanish architect and professor. He studied architecture in Barcelona, London, and the Illinois Institute of Technology in Chicago. 
+
+Vilalta combines practice with teaching and lecturing in cultural institutions and venues. He has taught as a professor at Barcelona Tech ETSAB and the University of Lleida. 
+
+In 2004 he founded the design firm Vilalta Studio in Barcelona, Spain. With his team, Vilalta developed his early work in Spain followed by international projects in emerging countries in Africa and the Middle East. 
+
+His projects have been recognized by international awards such as the Young Architect of the year at the Leaf Awards 2008, and two consecutive awards, 2009 and 2010, the SAIE Selection of the energy exhibition of Bologna in Italy for the sustainability of his projects. In 2011, he became a Fellow of TED (Technology, Entertainment, Design). 
+
+Xavier Vilalta's work focuses on nature and people as well as how to reconnect the two thinking about our contemporary urban life as part of the environment where Architecture grows from the local natural conditions and traditions. 
+
+He is interested in vernacular architecture related to sustainability. He defines sustainability as the relationship between Architecture and the program it contains and its social values, the way it is designed and built and how it will perform in the future. 
+
+Steam trams began operation in the system in 1884, under the name Steam Tramway Brno. In the 1900s, the conversion from steam to electrical power began, but steam locomotives were still used, until 1914, to transport goods. 
+
+Within the first year of operation several new lines were constructed, and soon a total of five lines were offered as part of the system. In 1914, Company Brno began to experience financial difficulties and was taken over by the Austrian electricity delivery group Aktiengesellschaft from Vienna. During World War I further expansion was considered, resulting in the extension of one line to a hospital. 
+
+Pandora is a female Mexican singing trio. The trio was formed in 1981 under the name Trebol by sisters Isabel Lascurain and Mayte Lascurain and their cousin Fernanda Meade. The trio was renamed "Pandora" upon signing with EMI Records in 1984. 
+
+From 1981 to 1984 the trio established itself doing backup vocals for artists such as Emmanuel and Pedro Vargas (who is the sisters' godfather), and backup vocals for the group Timbiriche. On November 29, 1984, the trio signed a record deal with EMI and became Mexico's first all-female musical trio in thirty years. The artistic director of EMI Capitol Mexico, Luis Moyano, renamed the group "Pandora" after the first woman created on Earth in Greek mythology. 
+
+In May 1989, Meade left the group to pursue a solo career and was replaced by Liliana Aboroa. Meade returned to the group in 1997 and has continued with them since. 
+
+To celebrate the 25th anniversary of their debut, the three original members of Pandora reunited in 2010 to release a new album, Pandora - De Plata, which consisted of covers, duets, and re-recordings of their old hits. 
+
+Hasan Halili was the minister of agriculture in the 1992 government of Sali Berisha in Albania. He is a member of the Democratic Party. 
+
+One vessel built during this period by Hall, Russell & Company has become well known in popular culture, a fisheries research vessel built as Sir William Hardy (Yard number 846) was bought by Greenpeace, becoming the first Rainbow Warrior in 1977. The Rainbow Warrior would later be sunk by French Special Forces when it was used to disrupt French nuclear weapons testing in the Pacific. 
+
+He won the title of German Champion in men's figure skating twice, in 1900 and 1901. He was the younger brother of Karl Zenger. 
+
+The tomb of Lu Xun was listed as the first batch of the major historical and cultural site protected at the national level, by the State Council of the People's Republic of China, on 4 March 1961. 
+
+After some years travelling in Australia, Europe and East Asia while working in the construction industry, Paul set up a computer support company on Sydney's North Shore in January 1995. He stepped away from day-to-day operations of the business in 2007 with its interstate expansion. 
+
+In 1998 Paul was invited onto 702 ABC Sydney (2BL) to discuss the Y2K issue and answer listener's questions.  The success of this segment lead to two monthly segments on ABC Local Radio programs, Nightlife with Tony Delroy and the Sydney 702 Weekend program with Simon Marnie. 
+
+In addition to this, Wallbank has a weekly column on the Australian Smart Company website discussing business and technology issues. He has also written one small business technology book and adapted five Dummies guides for the Australian market. 
+
+This Chinese biographical article relating to sport is a stub. You can help Wikipedia by expanding it.
+
+On the central square a monument honouring messenger god in the religion of the Muisca; Bochica has been erected. 
+
+He remained the Deputy Ameer of Jamaat-e-Islami until 30 March 2014 when he was elected as the Ameer of Jamaat-e-Islami Pakistan. In accordance with party rules whereby intra-party elections are held every five years, he was re-elected as Ameer (chief) of Jamaat-e-Islami in March 2019, until March 2024. He remains immensely popular in his constituency and is known for his modesty among friends and foes alike. 
+
+He resigned from the Ministry of Finance in June 2014 right after the budget because, according to party rules, one person cannot hold two offices at the same time. At that time, he was Ameer of Jamaat-e-Islami and Senior Minister in KPK Assembly. 
+
+In 2015, he fought and won the election for senate. He is considered to be a senior member of the Parliament of Pakistan. 
+
+During 2018 general elections, he lost the national assembly seat NA-7 Lower Dir II to his rival candidate, Muhammad Bashir Khan of PTI, by a margin of 16,144 votes and was the runner up. 
+
+Winkler graduated from the University of Manitoba with a Bachelor of Arts in 1912, and a BSA in 1916. He also served in the military as a member of the 11th Canadian Field Ambulance unit in World War I with some duties in France. His father, Valentine Winkler, was a member of the Legislative Assembly of Manitoba who was provincial Minister of Agriculture from 1915 to 1920. 
+
+He was first elected to Parliament at the Lisgar riding in the 1935 general election and re-elected there in 1940, 1945 and 1949. Winkler left the House of Commons after completing his fourth and final term of federal office and did not seek re-election in the 1953 election. 
+
+Mansfield Hosiery Mills Cricket Club is an English cricket club based in Sutton-in-Ashfield, Nottinghamshire. The club competes in the Nottinghamshire Cricket Board Premier League, which is an accredited ECB Premier League, gaining promotion to the league in 2004. 
+
+Like most Premier League clubs, Mansfield have employed numerous overseas and English professional cricketers. During 2006, this was Francois du Plessis, the South Africa T20 captain and Test and O.D.I player, and, in 2017, Australian cricketer Dylan Barmby. Current club professional is former Leicestershire player Tom New. 
+
+Pld - Played; W - Won; L - Lost; PF - Points for; PA - Points against; Diff - Difference; Pts - Points. 
+
+This article about a water polo competition in Hungary is a stub. You can help Wikipedia by expanding it.
+
+Following Brian's death at the Battle of Clontarf in 1014, the political situation became more complex with rivalry for high kingship from several clans and dynasties. Brian's descendants failed to maintain a unified throne, and regional squabbling over territory led indirectly to the invasion of the Normans under Richard de Clare in 1169. 
+
+The first part of the period from 800 to 1014 is well-studied; the "Viking age" has attracted the interest of historians for quite some time. The period between 1014 and 1169 has received less attention. In the words of Sean Duffy, this period 
+
+A large body of contemporary and near-contemporary material on early medieval Ireland has survived. From the titles of works mentioned in these sources, it is clear that a great deal of additional material has now been lost. The surviving materials usually exist in the form of much later copies, and it is only from comparison of the various texts that the original documents can be reconstructed. 
+
+In addition to the annals, a large number of genealogies survive, along with geographical and legal texts, poetry, sagas and hagiography. 
+
+The wind is fierce tonightit tosses the sea's white maneI do not fear the coursing of a quiet seaby the fierce warriors of Lothlend
+
+The first recorded Viking raid in Irish history occurred in AD 795 when Vikings, possibly from Norway looted the island of Lambay.[note 4] This was followed by a raid on the coast of Brega in 798, and raids on the coast of Connacht in 807. These early Viking raids were generally small in scale and quick. 
+
+Is he Feidhlimidh in ridianid opair oenlaithieitrige Connacht cen cathocus Midhe do manrath (Feidlimid is the kingFor whom a single day's work isTo take the hostages of Connacht without battleAnd to spoil Mide.)
+
+A new and more intensive period of Viking settlement in Ireland began in 914. Between 914 and 922 the Norse established Waterford, Cork, Dublin, Wexford and Limerick.[note 11] Significant excavations in Dublin and Waterford in the 20th century have unearthed much of the Viking heritage of those cities. A large amount of Viking burial stones, called the Rathdown Slabs, have been found in multiple locations across South Dublin. 
+
+There were major reforms in the Irish church during the 12th century. These reforms have been generally interpreted as a reaction to previous secularisation, but could also be seen as a continuous development. The reforms had consequences for, and were influenced by, relations within the church as well as secular politics. 
+
+The Norman invasion of Ireland was a two-stage process, which began on 1 May 1169 when a force of individual Norman knights led by Raymond Fitzgerald landed near Bannow, County Wexford. This was at the request of Dermot MacMurrough (Diarmait Mac Murchada), the ousted King of Leinster who sought their help in regaining his kingdom. 
+
+Then on 18 October 1171, Henry II landed a much bigger force in Waterford to at least ensure his continuing control over the Norman force. In the process he took Dublin and had accepted the fealty of the Irish kings and bishops by 1172, so creating the "Lordship of Ireland", which formed part of his Angevin Empire. 
+
+Corymorpha nutans is found throughout the British Isles and is frequent in suitable habitats in the Northern Atlantic and south to the Mediterranean Sea. 
+
+The waterfall lies in Hakaui Valley. The top of the waterfall is basalt, from which the water spouts as a single jet from its gouged channel. Before reaching the bottom of the fall, the water vaporizes into mist which coats the walls of the canyon, giving them a glossy sheen. 
+
+This biographical article relating to Brazilian athletics is a stub. You can help Wikipedia by expanding it.
+
+Basia Kenneth Makepe (born 4 March 1991) is a Mosotho footballer who plays as a centre back for Lesotho Premier League club Lesotho Mounted Police Service FC and the Lesotho national team. 
+
+This biographical article related to Lesotho association football is a stub. You can help Wikipedia by expanding it.
+
+It was a further seven years before WTMW signed on April 3, 1993 as a Home Shopping Network (HSN) affiliate. Barry Diller's Silver King Broadcasting, predecessor to HSN's broadcasting arm, USA Broadcasting, had taken a 45% stake in the station in 1989 in order to keep it afloat. Urban Broadcasting filed for Chapter 11 bankruptcy less than two years later, on July 3, 1995. 
+
+WTMW became an affiliate of the American Independent Network, which primarily broadcast reruns of old sitcoms and infomercials, on December 20 of the same year. Without the fixed income from its HSN affiliation, however, Urban Broadcasting filed for Chapter 11 bankruptcy again in August 2000. Concurrently in December, Univision Communications bought all of USA Broadcasting's over-the-air stations including its 45% stake in WTMW. 
+
+On April 3, 2014, Katz Broadcasting announced plans to multicast Grit and Escape on WFDC's DT3 and DT4 subchannels. The two networks began broadcasting on August 18, 2014. Escape was replaced by Katz's Bounce TV on September 30, 2017. 
+
+WFDC shut down its analog signal, over UHF channel 14, on June 12, 2009, the official date in which full-power television stations in the United States transitioned from analog to digital broadcasts under federal mandate. The station's digital signal continued to broadcasts on its pre-transition UHF channel 15. Through the use of PSIP, digital television receivers display the station's virtual channel as its former UHF analog channel 14. 
+
+The album's musical style is primarily urban and R&B, in contrast to the pop sounds of Milian's previous albums, a change suggested by Island Def Jam. Following criticism over her previous albums for a lack of consistency, Milian had ten of the album's tracks produced by Cool & Dre. Lyrically, the album was inspired by Milian's breakup with Nick Cannon. So Amazin' was completed within a three-month period, and Milian received writing credit for nine of the album's songs. 
+
+So Amazin' debuted and peaked at number 11 on the Billboard 200, selling 54,000 copies in its first week and 163,000 copies in total. Internationally, the album peaked at number 55 on the Swiss Albums Chart, 67 on the UK Albums Chart, and 139 on the France Albums Chart. The album's lead single, "Say I", featured rapper Young Jeezy and had a music video, directed by Ray Kay. The single peaked at number four in the UK, and number 21 in the United States. 
+
+Cisthene deserta is a moth of the family Erebidae. It was described by Felder in 1868. It is found in North America, where it has been recorded from Utah and California. 
+
+This biographical article about a goalkeeper from Uruguay is a stub. You can help Wikipedia by expanding it.
+
+This geographical article about a location in Amasya Province, Turkey is a stub. You can help Wikipedia by expanding it.
+
+Fred Scerni (born February 18, 1948) is an American politician who served in the New Jersey General Assembly from the 2nd Legislative District from 1990 to 1992. 
+
+ Robert Balfour, 2nd Lord Balfour of Burleigh (died 18 August 1663) was a Scottish military commander. 
+
+Balfour was son of Sir Robert Arnot of Fernie, chamberlain of Fife. He married Margaret, daughter of Michael Balfour of Burleigh and Margaret, daughter of Lundie of Lundie, and his wife succeeded her father (who was created Lord Balfour of Burleigh on 7 August 1606) as Baroness Balfour of Burleigh. Thereupon, by a letter from King James I, Arnot became Lord Balfour of Burleigh, the second holder of the title. 
+
+His wife died before him (in 1639). They had one son, John, 3rd Lord Balfour of Burleigh, and four daughters. 
+
+This biographical article related to the military of the United Kingdom or its predecessor states is a stub. You can help Wikipedia by expanding it.
+
+This article about a French historian or genealogist is a stub. You can help Wikipedia by expanding it.
+
+David Hicks (born August 1, 1988) is an American professional basketball player, currently a free agent. 
+
+David Hicks was a key member of the 2010 Long Island University, which made it to the 2011 NCAA Basketball Tournament. During his college career Hicks made 123 starts in the backcourt and finished his career with 1,157 points. 
+
+Christian Brassington (born 6 June 1983) is an English actor. He trained at the Webber Douglas Academy of Dramatic Art. 
+
+In 2009, Brassington portrayed a young Boris Johnson in the More4 drama documentary When Boris Met Dave having previously played a young Tony Blair for Channel 4. In November 2013 he appeared in the one-off 50th anniversary comedy homage webcast The Five(ish) Doctors Reboot. 
+
+Gabriel Omar Amato (born 22 October 1970) is an Argentine retired footballer who played as a striker. 
+
+Darbhanga gharana is a gharana, or tradition, of the Hindustani classical music dhrupad thought to have been started in the eighteenth century by Radhakrishna and Kartaram, musicians in the court of the Nawab of Darbhanga. The style is notable for its vocal delivery and energetic performances, as well how the songs are sung after the alap. Notable singers of the Darbhanga gharana include Ram Chatur Mallick, Vidur Mallick and Siyaram Tiwari. 
+
+The tradition was prominent at the start of the twentieth century, but started to decline after India gained its independence. Pandit Siyaram Tiwari's music is considered by many musicians of Darbhanga gharana to have embodied its essence. In 2019 a centenary concert was held in his memory in August 2019 as part of an attempt to revitalise the tradition.  
+
+Darbhanga gharana is based on the Gauhar Vani of dhrupad and is unique in that it has equal balance between the alap, or opening section, and the bandish instead of emphasising the alap as is typical in other dhrupad gharanas. 
+
+Wang Kelian is a village in Perlis, Malaysia located on the Malaysia-Thailand Border. The village was popular with tourists as it was the location of a border market which straddles both sides of the border. However, it has lost it popularity following the discovery of mass graves of the victims of human trafficking in the area in 2015, for which it is now known for. It is also the location of a minor border crossing into Thailand. 
+
+Wang Kelian is located in the northern part of the Malaysian state of Perlis, and is one of the northernmost villages in Peninsular Malaysia. Wang Kelian is located at the foot of the Nakawan Range and is surrounded by hills, with many limestone outcrops. Coming from Kaki Bukit and the rest of Perlis, Road R15 has to climb over a low pass to reach Wang Kelian. 
+
+At the border crossing, Road R15 connects to Route 4184 which joins Route 406, the main road to Satun town. 
+
+The popularity of the market however took a hit as the Malaysian government tightened border crossing procedures following the discovery of mass graves of the victims of human trafficking and illegal transit camps in the nearby jungles in 2015. In  April that year, the Malaysian government stopped the free flow of cross-border visitors as this was reportedly exploited by the human traffickers to bring the victims into Malaysia from Thailand. 
+
+Wang Kelian is also the location of one of two border crossings between Malaysia and Thailand in the state of Perlis, with the other one at Padang Besar. The village across the border from Wang Kelian is Wang Prachan in Khuan Don District, Satun province, Southern Thailand where the immigration checkpoint is located. 
+
+The commissioner of the Royal Canadian Mounted Police (French: commissaire de la Gendarmerie royale du Canada) is the professional head of the Royal Canadian Mounted Police (RCMP). The commissioner exercises control and management of the RCMP under the direction of the minister of public safety. The position is a Governor in Council appointment made on the advice of the prime minister of Canada. 
+
+In addition to his or her role in the management of the RCMP, the commissioner serves as Principal Commander of the Order of Merit of the Police Forces. Under the Firearms Act, the RCMP commissioner also serves as the commissioner of firearms, the chief executive of the Canadian Firearms Program. 
+
+Brenda Lucki is the 24th and current commissioner of the RCMP, taking office on April 16, 2018. She is the first woman to serve in the role on a permanent basis. 
+
+The Canadian monarch is the honorary commissioner-in-chief and Charles, Prince of Wales, is the honorary commissioner of the RCMP. However, neither exercises a substantive role in the operation of the organization. 
+
+There have been 24 commissioners, including two acting commissioners and one interim commissioner, since the founding of the North-West Mounted Police in 1873:  
+
+The present day RCMP National Headquarters building in Ottawa was named in his honour on October 05th, 2011. 
+
+Alexandra Nicoleta Anghel (born 28 June 1997) is a Romanian freestyle wrestler. In 2018, she won one of the bronze medals in the 72 kg event at the 2018 European Wrestling Championships held in Kaspiysk, Russia. 
+
+In 2019, she lost the bronze medal match in the 72 kg event at the 2019 European Wrestling Championships held in Bucharest, Romania. In the same year, she also competed in the 72 kg event at the 2019 World Wrestling Championships where she lost her first match against Natalia Vorobieva. In the repechage she was eliminated from the competition by Masako Furuichi of Japan. 
+
+This biographical article relating to a Romanian sport wrestler or wrestling coach is a stub. You can help Wikipedia by expanding it.
+
+Latvia competed at the 1992 Summer Olympics in Barcelona, Spain.  It was the first time since 1936 that the nation had competed as an independent country at the Summer Olympic Games.  Latvian athletes competed for the Soviet Union (USSR) from 1952 to 1988. 34 competitors, 25 men and 9 women, took part in 31 events in 13 sports. 
+
+Tullimbar is a suburb situated in the Macquarie Valley in the City of Shellharbour, New South Wales, Australia. 
+
+A Post Office was established at Tullimbar in 1872. A school was opened at Tullimbar on 31 October 1881. 
+
+K. C. Reddy Ministry was the Council of Ministers in Mysore, a state in South India headed by K. Chengalaraya Reddy of the Indian National Congress. 
+
+The ministry had multiple  ministers including the Chief Minister of Mysore. All ministers belonged to the Indian National Congress. 
+
+Mysore became a Part-B state of the union because Maharaja of Mysore issued a proclamation on this regard on 25 November 1949. 
+
+K. C. Reddy Ministry was an adhoc arrangement from 25 October 1947 (even tough India became Republic on 26 January 1950) till the first election under Adult franchise was held in 1952 and Kengal Hanumanthaiah was elected as Chief Minister of Mysore post elections there by ending the unscheduled tenure of K. C. Reddy Ministry. 
+
+Ten Sing is a Christian youth program within YWCA and YMCA, engaging teenagers in creative performing arts. 
+
+Ten Sing is a YMCA international Youth programme and YWCA (Young Women's Christian Association), which focuses on getting young people to express themselves by using their own culture through creative performing arts. 
+
+The underlying objectives are leadership training, democracy training and personal and social development of body, mind and spirit. Ten Sing invit
