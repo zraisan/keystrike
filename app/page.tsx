@@ -2,15 +2,18 @@
 
 import Header from "@/components/Header";
 import { Textarea } from "@/components/ui/textarea";
+import { useSocket } from "@/hook/useSocket";
 import generateParagraph from "@/lib/markov";
-import { useEffect, useState, useRef } from "react";
+import { useEffect, useState, useRef, use } from "react";
 import { io } from "socket.io-client";
 
 export default function Home() {
+  const { messages, sendMessage, isConnected } = useSocket(null);
   const [paragraph, setParagraph] = useState("");
   const [userInput, setUserInput] = useState("");
   const [currentIndex, setCurrentIndex] = useState(0);
   const [wpm, setWpm] = useState(0);
+  const [roomId, setRoomId] = useState("");
   const [incorrectChars, setIncorrectChars] = useState(0);
   const [accuracy, setAccuracy] = useState(100);
   const [timeElapsed, setTimeElapsed] = useState<number>(0);
@@ -97,24 +100,8 @@ export default function Home() {
 
   const handleJoinGame = (id = "someid") => {
     try {
-      const socket = io("http://localhost:4000");
-
-      socket.on("connect", () => {
-        console.log("Socket Connected: ", socket.id); // x8WIv7-mJelg7on_ALbx
-      });
-
-      socket.on("disconnect", () => {
-        console.log("Socket Disconnected"); // false
-      });
-
-      socket.emit("join_room", id);
-
-      // Example of sending a keystroke
-      socket.emit("send_keystroke", {
-        room: id,
-        message: "a",
-        sender: socket.id,
-      });
+      setRoomId(id);
+      console.log("Joining game with ID:", id);
     } catch (error) {
       console.error("Error joining game:", error);
     }
