@@ -50,4 +50,3 @@ export default async function generateParagraph(
 }
 
 prepareData("lib/para.txt");
-console.log(generateParagraph(50));

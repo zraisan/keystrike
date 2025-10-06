@@ -120,3 +120,77 @@
     @apply bg-background text-foreground;
   }
 }
+
+/* Keyflow Theme Variables */
+:root {
+  --keyflow-dark-blue: #1B3C53;
+  --keyflow-medium-blue: #234C6A;
+  --keyflow-light-blue: #456882;
+  --keyflow-beige: #D2C1B6;
+  
+  /* Theme color mappings with good contrast */
+  --keyflow-primary: var(--keyflow-dark-blue);
+  --keyflow-primary-foreground: var(--keyflow-beige);
+  --keyflow-secondary: var(--keyflow-medium-blue);
+  --keyflow-secondary-foreground: white;
+  --keyflow-accent: var(--keyflow-light-blue);
+  --keyflow-accent-foreground: white;
+  --keyflow-surface: var(--keyflow-beige);
+  --keyflow-surface-foreground: var(--keyflow-dark-blue);
+  --keyflow-border: var(--keyflow-light-blue);
+}
+
+.dark {
+  --keyflow-primary: var(--keyflow-beige);
+  --keyflow-primary-foreground: var(--keyflow-dark-blue);
+  --keyflow-secondary: var(--keyflow-light-blue);
+  --keyflow-secondary-foreground: var(--keyflow-dark-blue);
+  --keyflow-accent: var(--keyflow-medium-blue);
+  --keyflow-accent-foreground: white;
+  --keyflow-surface: var(--keyflow-dark-blue);
+  --keyflow-surface-foreground: var(--keyflow-beige);
+  --keyflow-border: var(--keyflow-medium-blue);
+}
+
+/* Keyflow Theme Classes */
+.keyflow-theme {
+  background-color: var(--keyflow-surface);
+  color: var(--keyflow-surface-foreground);
+  border-color: var(--keyflow-border);
+}
+
+.keyflow-primary {
+  background-color: var(--keyflow-primary);
+  color: var(--keyflow-primary-foreground);
+}
+
+.keyflow-secondary {
+  background-color: var(--keyflow-secondary);
+  color: var(--keyflow-secondary-foreground);
+}
+
+.keyflow-accent {
+  background-color: var(--keyflow-accent);
+  color: var(--keyflow-accent-foreground);
+}
+
+/* Individual color utilities */
+.bg-keyflow-dark-blue { background-color: var(--keyflow-dark-blue); }
+.bg-keyflow-medium-blue { background-color: var(--keyflow-medium-blue); }
+.bg-keyflow-light-blue { background-color: var(--keyflow-light-blue); }
+.bg-keyflow-beige { background-color: var(--keyflow-beige); }
+
+.text-keyflow-dark-blue { color: var(--keyflow-dark-blue); }
+.text-keyflow-medium-blue { color: var(--keyflow-medium-blue); }
+.text-keyflow-light-blue { color: var(--keyflow-light-blue); }
+.text-keyflow-beige { color: var(--keyflow-beige); }
+
+.border-keyflow-dark-blue { border-color: var(--keyflow-dark-blue); }
+.border-keyflow-medium-blue { border-color: var(--keyflow-medium-blue); }
+.border-keyflow-light-blue { border-color: var(--keyflow-light-blue); }
+.border-keyflow-beige { border-color: var(--keyflow-beige); }
+
+/* Hover states */
+.hover\:bg-keyflow-primary:hover { background-color: var(--keyflow-primary); }
+.hover\:bg-keyflow-secondary:hover { background-color: var(--keyflow-secondary); }
+.hover\:bg-keyflow-accent:hover { background-color: var(--keyflow-accent); }

@@ -13,7 +13,15 @@ if (typeof window !== "undefined") {
 export const useSocket = (roomName: string | null) => {
   const [messages, setMessages] = useState<string[]>([]);
   const [isConnected, setIsConnected] = useState(false);
-  const [players, setPlayers] = useState<{id: string, progress: number}[]>([]);
+  const [paragraph, setParagraph] = useState("");
+  const [players, setPlayers] = useState<
+    { id: string; progress: number; username?: string }[]
+  >([]);
+  const [currentPlayer, setCurrentPlayer] = useState<{
+    id: string;
+    progress: number;
+    username?: string;
+  }>({ id: "", progress: 0 });
 
   useEffect(() => {
     if (!socket || !roomName) return;
@@ -22,6 +30,7 @@ export const useSocket = (roomName: string | null) => {
       setIsConnected(true);
       console.log("Connected to socket server.");
       socket.emit("join_room", roomName);
+      socket.emit("player_joined", roomName, currentPlayer.username);
     });
 
     socket.on("disconnect", () => {
@@ -34,17 +43,40 @@ export const useSocket = (roomName: string | null) => {
     });
 
     socket.on("receive_keystroke", (data) => {
-      const { message, sender } = data;
-      setPlayers(prev => {
-        const existingPlayer = prev.find(p => p.id === sender);
+      const { message, sender, username } = data;
+      setPlayers((prev) => {
+        const existingPlayer = prev.find((p) => p.id === sender);
         if (existingPlayer) {
-          return prev.map(p => 
-            p.id === sender ? { ...p, progress: message.length } : p
+          return prev.map((p) =>
+            p.id === sender
+              ? {
+                  ...p,
+                  progress: message.length,
+                  username: username || p.username,
+                }
+              : p
           );
         } else {
-          return [...prev, { id: sender, progress: message.length }];
+          return [...prev, { id: sender, progress: message.length, username }];
         }
       });
+    });
+
+    socket.on("new_player", (player) => {
+      setPlayers((prev) => [...prev, player]);
+    });
+
+    socket.on("room_players", (existingPlayers) => {
+      setPlayers(existingPlayers);
+    });
+
+    socket.on("player_left", (playerId) => {
+      setPlayers((prev) => prev.filter((p) => p.id !== playerId));
+    });
+
+    socket.on("room_paragraph", (roomParagraph) => {
+      console.log("Received paragraph for room:", roomParagraph);
+      setParagraph(roomParagraph);
     });
 
     socket.connect();
@@ -54,6 +86,10 @@ export const useSocket = (roomName: string | null) => {
       socket.off("disconnect");
       socket.off("message");
       socket.off("receive_keystroke");
+      socket.off("new_player");
+      socket.off("room_players");
+      socket.off("player_left");
+      socket.off("room_paragraph");
       socket.disconnect();
     };
   }, [roomName]);
@@ -66,13 +102,36 @@ export const useSocket = (roomName: string | null) => {
 
   const sendKeystroke = (userInput: string) => {
     if (socket && isConnected && roomName) {
-      socket.emit("send_keystroke", { 
-        room: roomName, 
-        message: userInput, 
-        sender: socket.id 
+      socket.emit("send_keystroke", {
+        room: roomName,
+        message: userInput,
+        sender: socket.id,
+        username: currentPlayer.username,
       });
     }
   };
 
-  return { messages, sendMessage, sendKeystroke, isConnected, players };
+  const setParagraphForRoom = (para: string) => {
+    console.log("Required values to set paragraph:", {
+      socket,
+      isConnected,
+      roomName,
+    });
+    if (socket && isConnected && roomName && !paragraph) {
+      socket.emit("paragraph_set", roomName, para);
+    }
+  };
+
+  return {
+    messages,
+    sendMessage,
+    sendKeystroke,
+    isConnected,
+    players,
+    currentPlayer,
+    setCurrentPlayer,
+    paragraph,
+    setParagraph,
+    setParagraphForRoom,
+  };
 };
