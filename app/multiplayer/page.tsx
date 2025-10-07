@@ -7,6 +7,7 @@ import { useSocket } from "@/hook/useSocket";
 import generateParagraph from "@/lib/markov";
 import { useEffect, useState, useRef } from "react";
 import Link from "next/link";
+import confetti from "canvas-confetti";
 
 export default function Multiplayer() {
   const [roomId, setRoomId] = useState("");
@@ -24,13 +25,14 @@ export default function Multiplayer() {
   const [userInput, setUserInput] = useState("");
   const [currentIndex, setCurrentIndex] = useState(0);
   const [incorrectChars, setIncorrectChars] = useState(0);
-  const [accuracy, setAccuracy] = useState(100);
   const [timeElapsed, setTimeElapsed] = useState<number>(0);
   const [startType, setStartType] = useState(false);
   const textareaRef = useRef<HTMLTextAreaElement>(null);
   const [isDeleting, setIsDeleting] = useState(false);
   const [isComplete, setIsComplete] = useState(false);
   const [wpm, setWpm] = useState(0);
+  const [winner, setWinner] = useState<string | null>(null);
+  const [finishPosition, setFinishPosition] = useState<number | null>(null);
 
   useEffect(() => {
     if (textareaRef.current && gameStarted) {
@@ -51,20 +53,6 @@ export default function Multiplayer() {
   }, [startType]);
 
   useEffect(() => {
-    if (userInput.length > 0 && !isDeleting) {
-      setIncorrectChars((prev) =>
-        userInput[userInput.length - 1] !== paragraph[userInput.length - 1]
-          ? prev + 1
-          : prev
-      );
-      const newAccuracy = Math.round(
-        ((userInput.length - incorrectChars) / userInput.length) * 100
-      );
-      setAccuracy(newAccuracy);
-    }
-  }, [userInput, paragraph]);
-
-  useEffect(() => {
     if (timeElapsed > 0) {
       const wordsTyped = userInput.length / 5;
       const minutes = timeElapsed / 60;
@@ -73,15 +61,79 @@ export default function Multiplayer() {
   }, [userInput, timeElapsed]);
 
   useEffect(() => {
-    if (userInput.length === paragraph.length && paragraph.length > 0) {
+    if (
+      userInput.length === paragraph.length &&
+      paragraph.length > 0 &&
+      userInput === paragraph &&
+      !isComplete
+    ) {
       setIsComplete(true);
+
+      const finishedPlayers = players.filter(
+        (p) => p.progress === paragraph.length
+      );
+      const currentUsername =
+        players.find((p) => p.progress === userInput.length)?.username || "You";
+
+      if (finishedPlayers.length === 0) {
+        setWinner(currentUsername);
+        setFinishPosition(1);
+        confetti({
+          particleCount: 100,
+          spread: 70,
+          origin: { y: 0.6 },
+        });
+        setTimeout(() => {
+          confetti({
+            particleCount: 50,
+            angle: 60,
+            spread: 55,
+            origin: { x: 0 },
+          });
+        }, 250);
+        setTimeout(() => {
+          confetti({
+            particleCount: 50,
+            angle: 120,
+            spread: 55,
+            origin: { x: 1 },
+          });
+        }, 400);
+      } else {
+        const currentPostion = players.sort((a, b) => b.progress - a.progress);
+        const position = currentPostion.findIndex(
+          (p) => p.progress === userInput.length
+        );
+        if (position !== -1) {
+          setFinishPosition(position + 1);
+        } else {
+          setFinishPosition(finishedPlayers.length + 1);
+        }
+      }
     }
-  }, [userInput, paragraph]);
+  }, [userInput, paragraph, players, isComplete]);
 
   const handleInputChange = (e: React.ChangeEvent<HTMLTextAreaElement>) => {
     const value = e.target.value;
 
     if (value.length > paragraph.length) return;
+
+    const firstIncorrectIndex = value
+      .split("")
+      .findIndex((char, idx) => char !== paragraph[idx]);
+    if (firstIncorrectIndex !== -1) {
+      if (value.length > firstIncorrectIndex + 10) {
+        return;
+      }
+    }
+
+    if (
+      !isDeleting &&
+      value.length > userInput.length &&
+      value[value.length - 1] !== paragraph[value.length - 1]
+    ) {
+      setIncorrectChars((prev) => prev + 1);
+    }
 
     setStartType(true);
     setUserInput(value);
@@ -202,61 +254,76 @@ export default function Multiplayer() {
   if (!roomId) {
     return (
       <div className="flex flex-col items-center justify-center min-h-screen w-screen bg-keyflow-dark-blue">
-        <div className="mb-8">
+        <div className="mb-8 text-center">
           <h1 className="text-5xl font-bold text-white mb-4">
             Multiplayer Typerace
           </h1>
-          <p className="text-keyflow-beige/80 text-center">
+          <p className="text-keyflow-beige text-lg">
             Challenge friends in real-time typing races
           </p>
         </div>
 
-        <div className="bg-keyflow-medium-blue/50 backdrop-blur-sm p-8 rounded-lg max-w-md w-full mx-4 border border-keyflow-light-blue">
-          <div className="mb-6">
+        <div className="bg-keyflow-medium-blue/50 backdrop-blur-sm p-8 rounded-lg max-w-md w-full mx-4 border-2 border-keyflow-light-blue shadow-xl">
+          <div className="mb-8">
+            <label className="block text-keyflow-beige font-semibold mb-2 text-sm uppercase tracking-wide">
+              Your Username <span className="text-red-400">*</span>
+            </label>
             <Input
               type="text"
               placeholder="Enter your username"
               value={username}
               onChange={(e) => setUsername(e.target.value)}
-              className="bg-keyflow-light-blue/50 border-keyflow-beige/30 text-keyflow-beige mb-4 focus:ring-2 focus:ring-keyflow-beige"
+              className="bg-keyflow-light-blue/50 border-2 border-keyflow-beige/30 text-white placeholder:text-keyflow-beige/50 focus:ring-2 focus:ring-keyflow-beige focus:border-keyflow-beige h-12 text-lg"
             />
+          </div>
+
+          <div className="mb-6 p-4 bg-keyflow-dark-blue/30 rounded-lg border border-keyflow-beige/20">
+            <h3 className="text-keyflow-beige font-semibold mb-3 text-sm uppercase tracking-wide">
+              Start New Race
+            </h3>
             <Button
               onClick={createRoom}
               disabled={!username.trim()}
-              className="w-full mb-4 bg-keyflow-light-blue hover:bg-keyflow-medium-blue disabled:bg-keyflow-dark-blue text-keyflow-beige font-semibold py-3"
+              className="w-full bg-keyflow-light-blue hover:bg-keyflow-beige hover:text-keyflow-dark-blue disabled:bg-keyflow-dark-blue/50 disabled:text-keyflow-beige/40 text-white font-semibold py-3 transition-all duration-200 shadow-md hover:shadow-lg"
             >
               Create New Room
             </Button>
           </div>
 
-          <div className="text-center text-keyflow-beige/60 mb-4 relative">
+          <div className="text-center text-keyflow-beige/60 mb-6 relative">
             <div className="absolute inset-0 flex items-center">
-              <div className="w-full border-t border-keyflow-beige/30"></div>
+              <div className="w-full border-t-2 border-keyflow-beige/30"></div>
             </div>
-            <div className="relative bg-keyflow-medium-blue/50 px-4">OR</div>
+            <div className="relative bg-keyflow-medium-blue/50 px-4 font-semibold">
+              OR
+            </div>
           </div>
 
-          <div className="space-y-4">
+          <div className="p-4 bg-keyflow-dark-blue/30 rounded-lg border border-keyflow-beige/20">
+            <h3 className="text-keyflow-beige font-semibold mb-3 text-sm uppercase tracking-wide">
+              Join Existing Race
+            </h3>
             <Input
               type="text"
-              placeholder="Enter Room ID"
+              placeholder="Enter Room ID (e.g., ABC123)"
               value={roomInput}
-              onChange={(e) => setRoomInput(e.target.value)}
-              className="bg-keyflow-light-blue/50 border-keyflow-beige/30 text-keyflow-beige focus:ring-2 focus:ring-keyflow-beige"
+              onChange={(e) => setRoomInput(e.target.value.toUpperCase())}
+              className="bg-keyflow-light-blue/50 border-2 border-keyflow-beige/30 text-white placeholder:text-keyflow-beige/50 focus:ring-2 focus:ring-keyflow-beige focus:border-keyflow-beige mb-3 h-12 text-lg font-mono"
+              maxLength={6}
             />
             <Button
               onClick={joinRoom}
               disabled={!roomInput.trim() || !username.trim()}
-              className="w-full bg-keyflow-light-blue hover:bg-keyflow-medium-blue disabled:bg-keyflow-dark-blue text-keyflow-beige font-semibold py-3"
+              className="w-full bg-keyflow-light-blue hover:bg-keyflow-beige hover:text-keyflow-dark-blue disabled:bg-keyflow-dark-blue/50 disabled:text-keyflow-beige/40 text-white font-semibold py-3 transition-all duration-200 shadow-md hover:shadow-lg"
             >
               Join Room
             </Button>
           </div>
 
-          <div className="mt-6 text-center">
+          <div className="mt-8 text-center">
             <Link
               href="/"
-              className="text-keyflow-beige hover:text-white underline text-sm"
+              className="text-keyflow-beige hover:text-white underline text-sm transition-colors"
             >
               ← Back to Home
             </Link>
@@ -371,14 +438,10 @@ export default function Multiplayer() {
           </div>
         </div>
 
-        <div className="grid grid-cols-3 gap-4 mb-8 max-w-md mx-auto">
+        <div className="grid grid-cols-2 gap-4 mb-8 max-w-md mx-auto">
           <div className="bg-gray-800/50 rounded-lg p-3 text-center border border-gray-700">
             <div className="text-xl font-bold text-purple-400">{wpm}</div>
             <div className="text-xs text-gray-400">WPM</div>
-          </div>
-          <div className="bg-gray-800/50 rounded-lg p-3 text-center border border-gray-700">
-            <div className="text-xl font-bold text-green-400">{accuracy}%</div>
-            <div className="text-xs text-gray-400">Accuracy</div>
           </div>
           <div className="bg-gray-800/50 rounded-lg p-3 text-center border border-gray-700">
             <div className="text-xl font-bold text-blue-400">
@@ -436,19 +499,37 @@ export default function Multiplayer() {
 
         {isComplete && (
           <div className="mt-8 bg-gray-800/50 rounded-lg p-6 border border-gray-700 text-center max-w-md mx-auto">
-            <h2 className="text-2xl font-bold text-white mb-4">
-              Race Complete!
-            </h2>
+            {finishPosition === 1 ? (
+              <>
+                <div className="text-6xl mb-4">🏆</div>
+                <h2 className="text-3xl font-bold text-yellow-400 mb-2">
+                  WINNER!
+                </h2>
+                <p className="text-white text-lg mb-6">
+                  You finished first! Congratulations!
+                </p>
+              </>
+            ) : (
+              <>
+                <div className="text-6xl mb-4">
+                  {finishPosition === 2
+                    ? "🥈"
+                    : finishPosition === 3
+                    ? "🥉"
+                    : "🏁"}
+                </div>
+                <h2 className="text-2xl font-bold text-white mb-2">
+                  Race Complete!
+                </h2>
+                <p className="text-gray-300 text-lg mb-6">
+                  You finished in position #{finishPosition}
+                </p>
+              </>
+            )}
             <div className="grid grid-cols-3 gap-4 mb-6">
               <div>
                 <div className="text-2xl font-bold text-purple-400">{wpm}</div>
                 <div className="text-gray-400 text-sm">WPM</div>
-              </div>
-              <div>
-                <div className="text-2xl font-bold text-green-400">
-                  {accuracy}%
-                </div>
-                <div className="text-gray-400 text-sm">Accuracy</div>
               </div>
               <div>
                 <div className="text-2xl font-bold text-blue-400">

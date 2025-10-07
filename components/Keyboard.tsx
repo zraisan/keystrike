@@ -1,126 +1,110 @@
-import { useEffect, useRef } from "react";
+"use client";
+
+import { useRef } from "react";
+import { Canvas, useFrame } from "@react-three/fiber";
+import { OrbitControls } from "@react-three/drei";
 import * as THREE from "three";
 
-interface KeyboardProps {
+interface KeyMeshProps {
   letter: string;
-  cameraPosition: number;
-  size?: number;
+  size: number;
+  animate: boolean;
 }
 
-export default function Keyboard({
-  letter,
-  cameraPosition,
-  size = 1,
-}: KeyboardProps) {
-  const mountRef = useRef<HTMLDivElement | null>(null);
+function KeyMesh({ letter, size, animate }: KeyMeshProps) {
+  const groupRef = useRef<THREE.Group>(null);
+  const floatOffset = useRef(0);
 
-  useEffect(() => {
-    if (!mountRef.current) return;
+  useFrame(() => {
+    if (!groupRef.current || !animate) return;
 
-    const scene = new THREE.Scene();
-    const width = 120 * size;
-    const height = 120 * size;
-    const camera = new THREE.PerspectiveCamera(75, width / height, 0.1, 1000);
-    const renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true });
-    renderer.setSize(width, height);
-    renderer.setClearColor(0x000000, 0);
-    renderer.domElement.style.background = "transparent";
-    mountRef.current.appendChild(renderer.domElement);
+    groupRef.current.rotation.y += 0.005;
+    groupRef.current.rotation.x += 0.002;
+    floatOffset.current += 0.02;
+    groupRef.current.position.y = Math.sin(floatOffset.current) * 0.3;
+  });
 
-    const keyGroup = new THREE.Group();
-
-    const keyGeometry = new THREE.BoxGeometry(
-      1.5 * size,
-      1.5 * size,
-      0.3 * size
-    );
-    const keyMaterial = new THREE.MeshStandardMaterial({
-      color: 0x234c6a,
-      roughness: 0.4,
-      metalness: 0.6,
-    });
-    const keyBase = new THREE.Mesh(keyGeometry, keyMaterial);
-    keyGroup.add(keyBase);
-
-    const keyTopGeometry = new THREE.BoxGeometry(
-      1.3 * size,
-      1.3 * size,
-      0.1 * size
-    );
-    const keyTopMaterial = new THREE.MeshStandardMaterial({
-      color: 0x456882,
-      roughness: 0.3,
-      metalness: 0.4,
-    });
-    const keyTop = new THREE.Mesh(keyTopGeometry, keyTopMaterial);
-    keyTop.position.z = 0.2 * size;
-    keyGroup.add(keyTop);
-
+  const texture = (() => {
     const canvas = document.createElement("canvas");
     canvas.width = 256;
     canvas.height = 256;
     const ctx = canvas.getContext("2d");
-
-    ctx!.fillStyle = "#D2C1B6";
-    ctx!.font = "bold 180px Arial";
-    ctx!.textAlign = "center";
-    ctx!.textBaseline = "middle";
-    ctx!.fillText(letter, 128, 128);
-
-    const texture = new THREE.CanvasTexture(canvas);
-    const letterMaterial = new THREE.MeshBasicMaterial({
-      map: texture,
-      transparent: true,
-    });
-
-    const letterGeometry = new THREE.PlaneGeometry(1 * size, 1 * size);
-    const letterMesh = new THREE.Mesh(letterGeometry, letterMaterial);
-    letterMesh.position.z = 0.26 * size;
-    keyGroup.add(letterMesh);
-
-    scene.add(keyGroup);
-
-    const ambientLight = new THREE.AmbientLight(0xd2c1b6, 0.5);
-    scene.add(ambientLight);
-
-    const directionalLight = new THREE.DirectionalLight(0xffffff, 1.0);
-    directionalLight.position.set(5, 5, 5);
-    scene.add(directionalLight);
-
-    const rimLight = new THREE.DirectionalLight(0x456882, 0.4);
-    rimLight.position.set(-5, -5, 5);
-    scene.add(rimLight);
-
-    camera.position.z = cameraPosition;
-
-    let floatOffset = 0;
-
-    const animate = function () {
-      requestAnimationFrame(animate);
-
-      keyGroup.rotation.y += 0.005;
-      keyGroup.rotation.x += 0.002;
-
-      floatOffset += 0.02;
-      keyGroup.position.y = Math.sin(floatOffset) * 0.3;
-
-      renderer.render(scene, camera);
-    };
-
-    animate();
-
-    return () => {
-      mountRef.current?.removeChild(renderer.domElement);
-    };
-  }, [letter, cameraPosition, size]);
+    if (ctx) {
+      ctx.fillStyle = "#D2C1B6";
+      ctx.font = "bold 180px Arial";
+      ctx.textAlign = "center";
+      ctx.textBaseline = "middle";
+      ctx.fillText(letter, 128, 128);
+    }
+    return new THREE.CanvasTexture(canvas);
+  })();
 
   return (
+    <group ref={groupRef}>
+      <mesh>
+        <boxGeometry args={[1.5 * size, 1.5 * size, 0.3 * size]} />
+        <meshStandardMaterial color="#234c6a" roughness={0.4} metalness={0.6} />
+      </mesh>
+
+      <mesh position={[0, 0, 0.2 * size]}>
+        <boxGeometry args={[1.3 * size, 1.3 * size, 0.1 * size]} />
+        <meshStandardMaterial color="#456882" roughness={0.3} metalness={0.4} />
+      </mesh>
+
+      <mesh position={[0, 0, 0.26 * size]}>
+        <planeGeometry args={[1 * size, 1 * size]} />
+        <meshBasicMaterial map={texture} transparent />
+      </mesh>
+    </group>
+  );
+}
+
+interface KeyboardProps {
+  letter: string;
+  cameraPosition?: number;
+  size?: number;
+  animate?: boolean;
+  interactive?: boolean;
+}
+
+export default function Keyboard({
+  letter,
+  cameraPosition = 5,
+  size = 1,
+  animate = true,
+  interactive = false,
+}: KeyboardProps) {
+  return (
     <div
-      ref={mountRef}
       style={{
-        width: `${Math.round(120 * size)}px`,
-        height: `${Math.round(120 * size)}px`,
+        width: `${Math.round(100 * size)}px`,
+        height: `${Math.round(100 * size)}px`,
+        cursor: interactive ? "grab" : "default",
       }}
-    />
+    >
+      <Canvas
+        camera={{ position: [0, 0, cameraPosition], fov: 75 }}
+        gl={{ alpha: true, antialias: true }}
+      >
+        <ambientLight intensity={0.5} color="#d2c1b6" />
+        <directionalLight position={[5, 5, 5]} intensity={1.0} />
+        <directionalLight
+          position={[-5, -5, 5]}
+          intensity={0.4}
+          color="#456882"
+        />
+
+        <KeyMesh letter={letter} size={size} animate={animate} />
+
+        {interactive && (
+          <OrbitControls
+            enableDamping
+            dampingFactor={0.05}
+            enableZoom={false}
+            enablePan={false}
+          />
+        )}
+      </Canvas>
+    </div>
   );
 }
