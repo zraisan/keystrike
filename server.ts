@@ -4,7 +4,7 @@ import { Server } from "socket.io";
 import next from "next";
 
 const dev = process.env.NODE_ENV !== "production";
-const hostname = "localhost";
+const hostname = dev ? "localhost" : "0.0.0.0";
 const port = parseInt(process.env.PORT || "4000", 10);
 
 const app = next({ dev, hostname, port });
@@ -89,7 +89,7 @@ app.prepare().then(() => {
   });
 
   // Let Next.js handle all other requests
-  expressApp.all("*", (req, res) => {
+  expressApp.use((req, res) => {
     return handle(req, res);
   });
 
