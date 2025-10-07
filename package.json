@@ -4,9 +4,10 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "next dev --turbopack",
+    "dev": "tsx server-custom.ts",
     "build": "next build --turbopack",
-    "start": "next start",
+    "start": "NODE_ENV=production tsx server-custom.ts",
+    "server": "tsx server-custom.ts",
     "lint": "biome check",
     "format": "biome format --write"
   },
@@ -28,7 +29,8 @@
     "socket.io": "^4.8.1",
     "socket.io-client": "^4.8.1",
     "tailwind-merge": "^3.3.1",
-    "three": "^0.180.0"
+    "three": "^0.180.0",
+    "tsx": "^4.19.2"
   },
   "devDependencies": {
     "@biomejs/biome": "2.2.0",
