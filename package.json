@@ -4,10 +4,10 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "tsx server-custom.ts",
+    "dev": "tsx server.ts",
     "build": "next build --turbopack",
-    "start": "NODE_ENV=production tsx server-custom.ts",
-    "server": "tsx server-custom.ts",
+    "start": "NODE_ENV=production tsx server.ts",
+    "server": "tsx server.ts",
     "lint": "biome check",
     "format": "biome format --write"
   },
