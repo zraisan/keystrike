@@ -87,15 +87,6 @@ export default function TypingTest() {
 
     if (value.length > paragraph.length) return;
 
-    let wrongCharsCount = 0;
-    for (let i = 0; i < value.length; i++) {
-      if (value[i] !== paragraph[i]) {
-        wrongCharsCount++;
-      }
-    }
-
-    if (wrongCharsCount > 10) return;
-
     setStartType(true);
     setUserInput(value);
     setCurrentIndex(value.length);

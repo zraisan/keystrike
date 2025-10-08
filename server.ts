@@ -17,8 +17,13 @@ app.prepare().then(() => {
   const io = new Server(server, {
     serveClient: false,
     cors: {
-      origin: process.env.CORS_ORIGIN || "http://localhost:3000",
+      origin: process.env.CORS_ORIGIN
+        ? process.env.CORS_ORIGIN.split(",")
+        : dev
+        ? ["http://localhost:3000", "http://localhost:4000"]
+        : true,
       methods: ["GET", "POST"],
+      credentials: true,
     },
   });
 
@@ -48,9 +53,9 @@ app.prepare().then(() => {
 
       rooms.get(room).players.set(socket.id, playerData);
 
-      const existingPlayers = Array.from(rooms.get(room).players.values()).filter(
-        (p: any) => p.id !== socket.id
-      );
+      const existingPlayers = Array.from(
+        rooms.get(room).players.values()
+      ).filter((p: any) => p.id !== socket.id);
       socket.emit("room_players", existingPlayers);
 
       socket.to(room).emit("new_player", playerData);
@@ -88,7 +93,6 @@ app.prepare().then(() => {
     });
   });
 
-  // Let Next.js handle all other requests
   expressApp.use((req, res) => {
     return handle(req, res);
   });

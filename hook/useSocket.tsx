@@ -1,7 +1,9 @@
 import { useEffect, useState } from "react";
 import io from "socket.io-client";
 
-const SOCKET_SERVER_URL = "http://localhost:4000";
+const SOCKET_SERVER_URL =
+  process.env.NEXT_PUBLIC_SOCKET_URL ||
+  (typeof window !== "undefined" ? window.location.origin : "http://localhost:4000");
 
 let socket = null;
 if (typeof window !== "undefined") {
