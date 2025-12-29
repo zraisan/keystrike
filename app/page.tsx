@@ -12,32 +12,64 @@ import Link from "next/link";
 import Keyboard from "@/components/Keyboard";
 
 export default function HomePage() {
-  const keys = ["K", "E", "Y", "F", "L", "O", "W"];
+  const keyWord = ["K", "E", "Y"];
+  const strikeWord = ["S", "T", "R", "I", "K", "E"];
+  const fullWord = [...keyWord, ...strikeWord];
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen w-screen bg-keyflow-dark-blue">
+    <div className="flex flex-col items-center justify-center min-h-screen w-screen bg-keystrike-dark-blue">
       <div className="max-w-6xl w-full mx-auto px-4 text-center">
-        <div className="mb-12">
-          <div className="flex justify-center items-center m-4">
-            {keys.map((letter, index) => (
-              <Keyboard
-                key={index}
-                letter={letter}
-                cameraPosition={5}
-                size={1.8}
-                animate={false}
-                interactive={true}
-              />
-            ))}
+        <div className="mb-8 md:mb-12">
+          <div className="md:hidden flex flex-col items-center -space-y-10">
+            <div className="flex justify-center items-center">
+              {keyWord.map((letter, index) => (
+                <Keyboard
+                  key={index}
+                  letter={letter}
+                  cameraPosition={5}
+                  size={1.4}
+                  animate={false}
+                  interactive={true}
+                />
+              ))}
+            </div>
+            <div className="flex justify-center items-center">
+              {strikeWord.map((letter, index) => (
+                <Keyboard
+                  key={index}
+                  letter={letter}
+                  cameraPosition={5}
+                  size={1.4}
+                  animate={false}
+                  interactive={true}
+                  containerWidth={60}
+                />
+              ))}
+            </div>
           </div>
 
-          <p className="text-xl text-white/90 max-w-2xl mx-auto">
+          <div className="hidden md:block">
+            <div className="flex justify-center items-center m-4">
+              {fullWord.map((letter, index) => (
+                <Keyboard
+                  key={index}
+                  letter={letter}
+                  cameraPosition={5}
+                  size={1.8}
+                  animate={false}
+                  interactive={true}
+                />
+              ))}
+            </div>
+          </div>
+
+          <p className="text-lg sm:text-xl text-white/90 max-w-2xl mx-auto px-4">
             Get faster at typing. Practice alone or race your friends.
           </p>
         </div>
 
         <div className="grid md:grid-cols-2 gap-8 mb-12">
-          <Card className="bg-keyflow-medium-blue/50 border-keyflow-light-blue hover:bg-keyflow-medium-blue/70 transition-all duration-300 hover:scale-105">
+          <Card className="bg-keystrike-medium-blue/50 border-keystrike-light-blue hover:bg-keystrike-medium-blue/70 transition-all duration-300 hover:scale-105">
             <CardHeader>
               <CardTitle className="text-white text-2xl">
                 Solo Practice
@@ -58,7 +90,7 @@ export default function HomePage() {
                   <span>• Random text prompts</span>
                 </div>
                 <Link href="/type">
-                  <Button className="w-full bg-keyflow-light-blue hover:bg-keyflow-medium-blue text-white font-semibold py-3 hover:cursor-pointer">
+                  <Button className="w-full bg-keystrike-light-blue hover:bg-keystrike-medium-blue text-white font-semibold py-3 hover:cursor-pointer">
                     Start Typing Test
                   </Button>
                 </Link>
@@ -66,7 +98,7 @@ export default function HomePage() {
             </CardContent>
           </Card>
 
-          <Card className="bg-keyflow-medium-blue/50 border-keyflow-light-blue hover:bg-keyflow-medium-blue/70 transition-all duration-300 hover:scale-105">
+          <Card className="bg-keystrike-medium-blue/50 border-keystrike-light-blue hover:bg-keystrike-medium-blue/70 transition-all duration-300 hover:scale-105">
             <CardHeader>
               <CardTitle className="text-white text-2xl">
                 Multiplayer Race
@@ -87,7 +119,7 @@ export default function HomePage() {
                   <span>• Create or join rooms</span>
                 </div>
                 <Link href="/multiplayer">
-                  <Button className="w-full bg-keyflow-light-blue hover:bg-keyflow-medium-blue text-white font-semibold py-3 hover:cursor-pointer">
+                  <Button className="w-full bg-keystrike-light-blue hover:bg-keystrike-medium-blue text-white font-semibold py-3 hover:cursor-pointer">
                     Join Multiplayer
                   </Button>
                 </Link>
@@ -96,7 +128,7 @@ export default function HomePage() {
           </Card>
         </div>
 
-        <div className="bg-keyflow-medium-blue/30 rounded-lg p-8 border border-keyflow-light-blue">
+        <div className="bg-keystrike-medium-blue/30 rounded-lg p-8 border border-keystrike-light-blue">
           <h2 className="text-2xl font-bold text-white mb-4">Features</h2>
           <div className="grid md:grid-cols-3 gap-6 text-white/80">
             <div className="text-center">

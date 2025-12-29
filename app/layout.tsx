@@ -9,7 +9,7 @@ const dmMono = DM_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "KeyFlow",
+  title: "KeyStrike",
   description: "A typing test application",
 };
 

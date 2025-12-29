@@ -139,43 +139,43 @@ export default function TypingTest() {
   };
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen w-screen bg-keyflow-dark-blue">
+    <div className="flex flex-col items-center justify-center min-h-screen w-screen bg-keystrike-dark-blue">
       <div className="mb-8 text-center">
-        <h1 className="text-4xl font-bold text-keyflow-beige mb-2">
+        <h1 className="text-4xl font-bold text-keystrike-beige mb-2">
           Solo Typing Test
         </h1>
-        <p className="text-keyflow-beige mb-4">
+        <p className="text-keystrike-beige mb-4">
           Test your typing speed and accuracy
         </p>
         <Button
           onClick={resetTest}
-          className="bg-keyflow-light-blue hover:bg-keyflow-medium-blue text-keyflow-beige"
+          className="bg-keystrike-light-blue hover:bg-keystrike-medium-blue text-keystrike-beige"
         >
           Restart Test
         </Button>
       </div>
 
       <div className="grid grid-cols-3 gap-8 mb-8">
-        <div className="bg-keyflow-medium-blue/50 rounded-lg p-4 text-center border border-keyflow-light-blue">
-          <div className="text-2xl font-bold text-keyflow-beige">{wpm}</div>
-          <div className="text-sm text-keyflow-beige">WPM</div>
+        <div className="bg-keystrike-medium-blue/50 rounded-lg p-4 text-center border border-keystrike-light-blue">
+          <div className="text-2xl font-bold text-keystrike-beige">{wpm}</div>
+          <div className="text-sm text-keystrike-beige">WPM</div>
         </div>
-        <div className="bg-keyflow-medium-blue/50 rounded-lg p-4 text-center border border-keyflow-light-blue">
-          <div className="text-2xl font-bold text-keyflow-beige">
+        <div className="bg-keystrike-medium-blue/50 rounded-lg p-4 text-center border border-keystrike-light-blue">
+          <div className="text-2xl font-bold text-keystrike-beige">
             {accuracy}%
           </div>
-          <div className="text-sm text-keyflow-beige">Accuracy</div>
+          <div className="text-sm text-keystrike-beige">Accuracy</div>
         </div>
-        <div className="bg-keyflow-medium-blue/50 rounded-lg p-4 text-center border border-keyflow-light-blue">
-          <div className="text-2xl font-bold text-keyflow-beige">
+        <div className="bg-keystrike-medium-blue/50 rounded-lg p-4 text-center border border-keystrike-light-blue">
+          <div className="text-2xl font-bold text-keystrike-beige">
             {timeElapsed}s
           </div>
-          <div className="text-sm text-keyflow-beige">Time</div>
+          <div className="text-sm text-keystrike-beige">Time</div>
         </div>
       </div>
 
       <div className="relative max-w-4xl w-full mx-auto px-4">
-        <div className="font-mono text-2xl leading-relaxed whitespace-pre-wrap break-words p-6 bg-keyflow-medium-blue/50 rounded-lg border border-keyflow-light-blue mb-4">
+        <div className="font-mono text-2xl leading-relaxed whitespace-pre-wrap break-words p-6 bg-keystrike-medium-blue/50 rounded-lg border border-keystrike-light-blue mb-4">
           {renderText()}
         </div>
         <Textarea
@@ -190,37 +190,37 @@ export default function TypingTest() {
       </div>
 
       {isComplete && (
-        <div className="mt-8 bg-keyflow-medium-blue/50 rounded-lg p-6 border border-keyflow-light-blue text-center">
-          <h2 className="text-2xl font-bold text-keyflow-beige mb-4">
+        <div className="mt-8 bg-keystrike-medium-blue/50 rounded-lg p-6 border border-keystrike-light-blue text-center">
+          <h2 className="text-2xl font-bold text-keystrike-beige mb-4">
             Test Complete!
           </h2>
           <div className="grid grid-cols-3 gap-4 mb-6">
             <div>
-              <div className="text-3xl font-bold text-keyflow-beige">{wpm}</div>
-              <div className="text-keyflow-beige/60">Words per minute</div>
+              <div className="text-3xl font-bold text-keystrike-beige">{wpm}</div>
+              <div className="text-keystrike-beige/60">Words per minute</div>
             </div>
             <div>
-              <div className="text-3xl font-bold text-keyflow-beige">
+              <div className="text-3xl font-bold text-keystrike-beige">
                 {accuracy}%
               </div>
-              <div className="text-keyflow-beige/60">Accuracy</div>
+              <div className="text-keystrike-beige/60">Accuracy</div>
             </div>
             <div>
-              <div className="text-3xl font-bold text-keyflow-beige">
+              <div className="text-3xl font-bold text-keystrike-beige">
                 {timeElapsed}s
               </div>
-              <div className="text-keyflow-beige/60">Total time</div>
+              <div className="text-keystrike-beige/60">Total time</div>
             </div>
           </div>
           <div className="flex gap-4 justify-center">
             <Button
               onClick={resetTest}
-              className="bg-keyflow-light-blue hover:bg-keyflow-medium-blue text-keyflow-beige"
+              className="bg-keystrike-light-blue hover:bg-keystrike-medium-blue text-keystrike-beige"
             >
               Try Again
             </Button>
             <Link href="/multiplayer">
-              <Button className="bg-keyflow-light-blue hover:bg-keyflow-medium-blue text-keyflow-beige">
+              <Button className="bg-keystrike-light-blue hover:bg-keystrike-medium-blue text-keystrike-beige">
                 Try Multiplayer
               </Button>
             </Link>
@@ -231,7 +231,7 @@ export default function TypingTest() {
       <div className="mt-8 text-center">
         <Link
           href="/"
-          className="text-keyflow-beige hover:text-white underline"
+          className="text-keystrike-beige hover:text-white underline"
         >
           ← Back to Home
         </Link>

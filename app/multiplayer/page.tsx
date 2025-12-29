@@ -253,19 +253,19 @@ export default function Multiplayer() {
 
   if (!roomId) {
     return (
-      <div className="flex flex-col items-center justify-center min-h-screen w-screen bg-keyflow-dark-blue">
+      <div className="flex flex-col items-center justify-center min-h-screen w-screen bg-keystrike-dark-blue">
         <div className="mb-8 text-center">
           <h1 className="text-5xl font-bold text-white mb-4">
             Multiplayer Typerace
           </h1>
-          <p className="text-keyflow-beige text-lg">
+          <p className="text-keystrike-beige text-lg">
             Challenge friends in real-time typing races
           </p>
         </div>
 
-        <div className="bg-keyflow-medium-blue/50 backdrop-blur-sm p-8 rounded-lg max-w-md w-full mx-4 border-2 border-keyflow-light-blue shadow-xl">
+        <div className="bg-keystrike-medium-blue/50 backdrop-blur-sm p-8 rounded-lg max-w-md w-full mx-4 border-2 border-keystrike-light-blue shadow-xl">
           <div className="mb-8">
-            <label className="block text-keyflow-beige font-semibold mb-2 text-sm uppercase tracking-wide">
+            <label className="block text-keystrike-beige font-semibold mb-2 text-sm uppercase tracking-wide">
               Your Username <span className="text-red-400">*</span>
             </label>
             <Input
@@ -273,34 +273,34 @@ export default function Multiplayer() {
               placeholder="Enter your username"
               value={username}
               onChange={(e) => setUsername(e.target.value)}
-              className="bg-keyflow-light-blue/50 border-2 border-keyflow-beige/30 text-white placeholder:text-keyflow-beige/50 focus:ring-2 focus:ring-keyflow-beige focus:border-keyflow-beige h-12 text-lg"
+              className="bg-keystrike-light-blue/50 border-2 border-keystrike-beige/30 text-white placeholder:text-keystrike-beige/50 focus:ring-2 focus:ring-keystrike-beige focus:border-keystrike-beige h-12 text-lg"
             />
           </div>
 
-          <div className="mb-6 p-4 bg-keyflow-dark-blue/30 rounded-lg border border-keyflow-beige/20">
-            <h3 className="text-keyflow-beige font-semibold mb-3 text-sm uppercase tracking-wide">
+          <div className="mb-6 p-4 bg-keystrike-dark-blue/30 rounded-lg border border-keystrike-beige/20">
+            <h3 className="text-keystrike-beige font-semibold mb-3 text-sm uppercase tracking-wide">
               Start New Race
             </h3>
             <Button
               onClick={createRoom}
               disabled={!username.trim()}
-              className="w-full bg-keyflow-light-blue hover:bg-keyflow-beige hover:text-keyflow-dark-blue disabled:bg-keyflow-dark-blue/50 disabled:text-keyflow-beige/40 text-white font-semibold py-3 transition-all duration-200 shadow-md hover:shadow-lg"
+              className="w-full bg-keystrike-light-blue hover:bg-keystrike-beige hover:text-keystrike-dark-blue disabled:bg-keystrike-dark-blue/50 disabled:text-keystrike-beige/40 text-white font-semibold py-3 transition-all duration-200 shadow-md hover:shadow-lg"
             >
               Create New Room
             </Button>
           </div>
 
-          <div className="text-center text-keyflow-beige/60 mb-6 relative">
+          <div className="text-center text-keystrike-beige/60 mb-6 relative">
             <div className="absolute inset-0 flex items-center">
-              <div className="w-full border-t-2 border-keyflow-beige/30"></div>
+              <div className="w-full border-t-2 border-keystrike-beige/30"></div>
             </div>
-            <div className="relative bg-keyflow-medium-blue/50 px-4 font-semibold">
+            <div className="relative bg-keystrike-medium-blue/50 px-4 font-semibold">
               OR
             </div>
           </div>
 
-          <div className="p-4 bg-keyflow-dark-blue/30 rounded-lg border border-keyflow-beige/20">
-            <h3 className="text-keyflow-beige font-semibold mb-3 text-sm uppercase tracking-wide">
+          <div className="p-4 bg-keystrike-dark-blue/30 rounded-lg border border-keystrike-beige/20">
+            <h3 className="text-keystrike-beige font-semibold mb-3 text-sm uppercase tracking-wide">
               Join Existing Race
             </h3>
             <Input
@@ -308,13 +308,13 @@ export default function Multiplayer() {
               placeholder="Enter Room ID (e.g., ABC123)"
               value={roomInput}
               onChange={(e) => setRoomInput(e.target.value.toUpperCase())}
-              className="bg-keyflow-light-blue/50 border-2 border-keyflow-beige/30 text-white placeholder:text-keyflow-beige/50 focus:ring-2 focus:ring-keyflow-beige focus:border-keyflow-beige mb-3 h-12 text-lg font-mono"
+              className="bg-keystrike-light-blue/50 border-2 border-keystrike-beige/30 text-white placeholder:text-keystrike-beige/50 focus:ring-2 focus:ring-keystrike-beige focus:border-keystrike-beige mb-3 h-12 text-lg font-mono"
               maxLength={6}
             />
             <Button
               onClick={joinRoom}
               disabled={!roomInput.trim() || !username.trim()}
-              className="w-full bg-keyflow-light-blue hover:bg-keyflow-beige hover:text-keyflow-dark-blue disabled:bg-keyflow-dark-blue/50 disabled:text-keyflow-beige/40 text-white font-semibold py-3 transition-all duration-200 shadow-md hover:shadow-lg"
+              className="w-full bg-keystrike-light-blue hover:bg-keystrike-beige hover:text-keystrike-dark-blue disabled:bg-keystrike-dark-blue/50 disabled:text-keystrike-beige/40 text-white font-semibold py-3 transition-all duration-200 shadow-md hover:shadow-lg"
             >
               Join Room
             </Button>
@@ -323,7 +323,7 @@ export default function Multiplayer() {
           <div className="mt-8 text-center">
             <Link
               href="/"
-              className="text-keyflow-beige hover:text-white underline text-sm transition-colors"
+              className="text-keystrike-beige hover:text-white underline text-sm transition-colors"
             >
               ← Back to Home
             </Link>
@@ -335,9 +335,9 @@ export default function Multiplayer() {
 
   if (roomId && !gameStarted) {
     return (
-      <div className="flex flex-col items-center justify-center min-h-screen w-screen bg-keyflow-dark-blue">
+      <div className="flex flex-col items-center justify-center min-h-screen w-screen bg-keystrike-dark-blue">
         <div className="mb-8">
-          <h1 className="text-4xl font-bold text-keyflow-beige mb-4">
+          <h1 className="text-4xl font-bold text-keystrike-beige mb-4">
             Room: <span className="text-white">{roomId}</span>
           </h1>
           <div className="flex items-center justify-center gap-2">
@@ -346,7 +346,7 @@ export default function Multiplayer() {
                 isConnected ? "bg-green-500" : "bg-red-500"
               }`}
             ></div>
-            <p className="text-keyflow-beige/80">
+            <p className="text-keystrike-beige/80">
               {isConnected ? "Connected" : "Disconnected"}
             </p>
           </div>
@@ -409,7 +409,7 @@ export default function Multiplayer() {
           <div className="mt-4 text-center">
             <Link
               href="/"
-              className="text-keyflow-beige hover:text-white underline text-sm"
+              className="text-keystrike-beige hover:text-white underline text-sm"
             >
               ← Back to Home
             </Link>
@@ -420,7 +420,7 @@ export default function Multiplayer() {
   }
 
   return (
-    <div className="min-h-screen w-screen bg-keyflow-dark-blue py-8">
+    <div className="min-h-screen w-screen bg-keystrike-dark-blue py-8">
       <div className="max-w-6xl mx-auto px-4">
         <div className="text-center mb-8">
           <h1 className="text-4xl font-bold text-white mb-2">
@@ -432,7 +432,7 @@ export default function Multiplayer() {
                 isConnected ? "bg-green-500" : "bg-red-500"
               }`}
             ></div>
-            <p className="text-keyflow-beige/80">
+            <p className="text-keystrike-beige/80">
               {isConnected ? "Connected" : "Disconnected"}
             </p>
           </div>

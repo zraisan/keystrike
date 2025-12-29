@@ -65,6 +65,8 @@ interface KeyboardProps {
   size?: number;
   animate?: boolean;
   interactive?: boolean;
+  className?: string;
+  containerWidth?: number;
 }
 
 export default function Keyboard({
@@ -73,12 +75,18 @@ export default function Keyboard({
   size = 1,
   animate = true,
   interactive = false,
+  className = "",
+  containerWidth,
 }: KeyboardProps) {
+  const defaultWidth = Math.round(100 * size);
+  const width = containerWidth ?? defaultWidth;
+
   return (
     <div
+      className={className}
       style={{
-        width: `${Math.round(100 * size)}px`,
-        height: `${Math.round(100 * size)}px`,
+        width: `${width}px`,
+        height: `${defaultWidth}px`,
         cursor: interactive ? "grab" : "default",
       }}
     >
