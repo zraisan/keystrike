@@ -2,6 +2,8 @@
   <h1>KeyStrike</h1>
   <p>A modern, real-time typing speed test application with multiplayer racing capabilities.<br/>Practice your typing skills solo or compete against friends in live races.</p>
 
+  <a href="https://keystrike.up.railway.app/"><img src="https://img.shields.io/badge/Live_Demo-keystrike.up.railway.app-4B32C3?style=for-the-badge&logo=railway" alt="Live Demo"></a>
+  <br/><br/>
   <a href="#getting-started"><img src="https://img.shields.io/badge/Next.js-15.5-black?logo=next.js" alt="Next.js"></a>
   <a href="#tech-stack"><img src="https://img.shields.io/badge/React-19-61DAFB?logo=react" alt="React"></a>
   <a href="#tech-stack"><img src="https://img.shields.io/badge/TypeScript-5-3178C6?logo=typescript" alt="TypeScript"></a>
@@ -218,7 +220,3 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-Built with [Next.js](https://nextjs.org/) and [Socket.io](https://socket.io/)
