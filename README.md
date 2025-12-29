@@ -11,6 +11,8 @@
   <a href="#socket-events"><img src="https://img.shields.io/badge/Socket.io-4.8-010101?logo=socket.io" alt="Socket.io"></a>
   <a href="#features"><img src="https://img.shields.io/badge/Three.js-3D-000000?logo=three.js" alt="Three.js"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-green" alt="License"></a>
+  <br/><br/>
+  <img src="assets/Screenshot.png" alt="KeyStrike Screenshot" width="800">
 </div>
 
 ## Features
